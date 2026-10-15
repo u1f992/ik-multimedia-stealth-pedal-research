@@ -1,0 +1,24 @@
+=== L: install boot-time virmidi config, reboot, verify
+snd-virmidi
+options snd-virmidi midi_devs=1 index=10
+Domain 'stealthpedal-ubuntu' is being rebooted
+
+event loop timed out
+ 1 [StealthPedal   ]: USB-Audio - StealthPedal
+                      IK Multimedia StealthPedal at usb-0000:05:00.0-1, full speed
+10 [VirMIDI        ]: VirMIDI - VirMIDI
+                      Virtual MIDI Card 1
+crw-rw----+ 1 root audio 116,  2 Oct 13 22:43 midiC10D0
+client 56: 'Virtual Raw MIDI 10-0' [type=kernel,card=10]
+    0 'VirMIDI 10-0    '
+client 142: 'PipeWire-System' [type=user,UMP-MIDI2,pid=1527]
+virmidi sequencer client: 56
+   0.003 pedal cc=11 value=0
+   0.003 switch cc=64 value=0
+   0.003 knob cc=7 value=0
+--- aseqdump:
+Waiting for data. Press Ctrl+C to end.
+Source  Event                  Ch  Data
+ 56:0   Control change          0, controller 11, value 0
+ 56:0   Control change          0, controller 64, value 0
+ 56:0   Control change          0, controller 7, value 0

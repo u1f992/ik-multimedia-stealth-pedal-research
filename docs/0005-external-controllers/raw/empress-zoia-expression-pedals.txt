@@ -1,0 +1,11 @@
+source: https://empresseffects.com/blogs/support-zoia/what-expression-pedals-can-i-use
+retrieved: 2026-10-15
+
+The pinout for the expression pedal is TIP=signal, RING=3.3V power, SLEEVE=ground. So your expression pedal has to have that pinout. Here's a list of pedals that we know work. Please let us know if you find any other pedals that work!
+Mission EP-1 and EP-2 (no polarity switch, polarity switch, respectively)
+M Audio EX-P (has polarity switch)
+Roland EV-5
+Lead Foot LFX-1
+Boss FV-500L
+Boss EV-30
+Moog EP-2 (we've tested the EP-2, and it works. it has been replaced by the EP-3 which we haven't tested yet)

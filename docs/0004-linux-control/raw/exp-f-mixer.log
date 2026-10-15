@@ -1,0 +1,14 @@
+  | dBminmax-min=0.00dB,max=12.00dB
+  | dBminmax-min=0.00dB,max=12.00dB
+  | dBminmax-min=0.00dB,max=12.00dB
+  | dBminmax-min=-127.00dB,max=0.00dB
+  : values=on
+--- /tmp/aplay-32000.log
+Playing raw data '/dev/zero' : Signed 24 bit Little Endian in 3bytes, Rate 32000 Hz, Stereo
+Aborted by signal Terminated...
+--- /tmp/aplay-44100.log
+Playing raw data '/dev/zero' : Signed 24 bit Little Endian in 3bytes, Rate 44100 Hz, Stereo
+Aborted by signal Terminated...
+--- /tmp/aplay-48000.log
+Playing raw data '/dev/zero' : Signed 24 bit Little Endian in 3bytes, Rate 48000 Hz, Stereo
+Aborted by signal Terminated...

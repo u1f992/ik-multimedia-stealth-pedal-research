@@ -1,0 +1,15 @@
+Bus 003 Device 002: ID 1963:0003 IK Multimedia StealthPedal
+/dev/hidraw0
+/dev/hidraw1
+/sys/class/hidraw/hidraw0 -> 0003:0627:0001.0001
+/sys/class/hidraw/hidraw1 -> 0003:1963:0003.0003
+Oct 13 22:33:54 stealthpedal-ubuntu kernel: usb 3-1: current rate 48000 is different from the runtime rate 44100
+Oct 13 22:33:57 stealthpedal-ubuntu kernel: usb 3-1: current rate 48000 is different from the runtime rate 32000
+Oct 13 22:34:35 stealthpedal-ubuntu kernel: hid-generic 0003:1963:0003.0003: hiddev0,hidraw1: USB HID v1.00 Device [IK Multimedia StealthPedal] on usb-0000:05:00.0-1/input3
+Oct 13 22:34:35 stealthpedal-ubuntu kernel: usb 3-1: authorized to connect
+   0.000 hidraw: /dev/hidraw1
+   0.055 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+   3.056 read without command: 746 reports, lengths={10: 746} first=81 02 80 49 fd 00 08 02 00 00 last=81 02 80 55 65 00 08 02 00 00 others=[]
+   0.000 hidraw: /dev/hidraw1
+   3.053 sent 00 04 01; read: 747 reports, lengths={10: 746, 1: 1} first=81 02 80 55 f4 00 08 02 00 00 last=81 02 80 61 5e 00 08 02 00 00 others=['80']
+   3.058 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00

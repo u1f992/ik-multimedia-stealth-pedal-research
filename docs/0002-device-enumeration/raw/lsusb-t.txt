@@ -1,0 +1,16 @@
+/:  Bus 001.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/15p, 480M
+    |__ Port 001: Dev 002, If 0, Class=Human Interface Device, Driver=usbhid, 480M
+/:  Bus 002.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/15p, 5000M
+/:  Bus 003.Port 001: Dev 001, Class=root_hub, Driver=xhci-pci-renesas/1p, 480M
+    |__ Port 001: Dev 002, If 0, Class=Audio, Driver=snd-usb-audio, 12M
+    |__ Port 001: Dev 002, If 1, Class=Audio, Driver=snd-usb-audio, 12M
+    |__ Port 001: Dev 002, If 2, Class=Audio, Driver=snd-usb-audio, 12M
+    |__ Port 001: Dev 002, If 3, Class=Human Interface Device, Driver=usbhid, 12M
+/:  Bus 004.Port 001: Dev 001, Class=root_hub, Driver=xhci-pci-renesas/1p, 5000M
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 0627:0001 Adomax Technology Co., Ltd QEMU Tablet
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 003 Device 002: ID 1963:0003 IK Multimedia StealthPedal
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub

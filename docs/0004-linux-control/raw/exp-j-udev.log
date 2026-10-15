@@ -1,0 +1,10 @@
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1963", ATTRS{idProduct}=="0003", MODE="0660", GROUP="plugdev", TAG+="uaccess"
+crw-rw----+ 1 root plugdev 239, 1 Oct 13 22:41 /dev/hidraw1
+user::rw-
+user:gdm-greeter:rw-
+group::rw-
+--- open and read as ubuntu (plugdev):
+opened fd 3 readable True 81 02 80 62 6f 00 08 02 00 00
+crw-rw----+ 1 root plugdev 239, 1 Oct 13 22:42 /dev/hidraw1
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1963", ATTRS{idProduct}=="0003", MODE="0660", GROUP="plugdev", TAG+="uaccess"
+0

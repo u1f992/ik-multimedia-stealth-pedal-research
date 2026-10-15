@@ -1,0 +1,32 @@
+#cloud-config
+autoinstall:
+  version: 1
+  source:
+    id: ubuntu-desktop-minimal
+  locale: en_US.UTF-8
+  keyboard:
+    layout: jp
+  timezone: Asia/Tokyo
+  identity:
+    hostname: stealthpedal-ubuntu
+    username: ubuntu
+    password: "$6$EoIJ2WChwH.LJTuQ$G7iPOQx1ToD3eUNZL0LP8guG9FM7YAJfSVwxmKzLFynfxg.3hUTkctlvUCGqzDJIzFuywPkXi2/ONKGwQFzYM."
+  storage:
+    layout:
+      name: direct
+  ssh:
+    install-server: true
+    allow-pw: true
+  codecs:
+    install: false
+  drivers:
+    install: false
+  oem:
+    install: false
+  updates: security
+  packages:
+    - qemu-guest-agent
+    - usbutils
+    - pciutils
+    - alsa-utils
+  shutdown: poweroff

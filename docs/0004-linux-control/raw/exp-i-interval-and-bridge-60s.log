@@ -1,0 +1,11 @@
+=== report interval statistics (10 s)
+reports in 10 s: 2492
+interval ms: min 3.85 p50 4.00 p90 4.09 p99 4.12 max 8.07 mean 4.014
+=== bridge 60 s run: CPU usage
+    PID %CPU %MEM     ELAPSED CMD
+   4725  0.6  0.2       00:30 python3 -c import base64; exec(base64.b64decode('a
+bridge exit=0
+--- events received:
+3
+--- kernel errors:
+(end)

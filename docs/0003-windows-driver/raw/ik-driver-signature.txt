@@ -1,0 +1,44 @@
+=== elevation / gsudo / secure boot / code integrity
+�w�肳�ꂽ�p�X��������܂���B
+=== copy Driver dir to win11
+
+FullName                                     Length
+--------                                     ------
+C:\IK\Driver\amd64                                 
+C:\IK\Driver\i386                                  
+C:\IK\Driver\IKClsCoInst.cat                 9596  
+C:\IK\Driver\IKClsCoInst.inf                 1726  
+C:\IK\Driver\IKStealthPedalLL.cat            12448 
+C:\IK\Driver\IKStealthPedalLL.inf            5252  
+C:\IK\Driver\amd64\IKClsCoInst.dll           51200 
+C:\IK\Driver\amd64\IKStealthPedalAPIx64.dll  48640 
+C:\IK\Driver\amd64\IKStealthPedalASIOx64.dll 91648 
+C:\IK\Driver\amd64\IKStealthPedalASIOx64.exe 329728
+C:\IK\Driver\amd64\IKStealthPedalLLx64.sys   52224 
+C:\IK\Driver\i386\IKClsCoInst.dll            53248 
+C:\IK\Driver\i386\IKStealthPedalAPI.dll      53248 
+C:\IK\Driver\i386\IKStealthPedalASIO.dll     77824 
+C:\IK\Driver\i386\IKStealthPedalASIO.exe     266240
+C:\IK\Driver\i386\IKStealthPedalLL.sys       42112 
+
+
+
+=== catalog signature check
+
+
+Path          : C:\IK\Driver\IKStealthPedalLL.cat
+Status        : Valid
+StatusMessage : 署名を確認しました。
+Signer        : E=tools.manager@ikmultimedia.com, CN=IK Multimedia Production srl, O=IK Multimedia Production srl, L=Modena, S=MO, C=IT
+NotAfter      : 2010/07/08 22:59:31
+
+Path          : C:\IK\Driver\amd64\IKStealthPedalLLx64.sys
+Status        : NotSigned
+StatusMessage : ファイル C:\IK\Driver\amd64\IKStealthPedalLLx64.sys はデジタル署名されていません。このスクリプトは現在のシステムでは実行できません。スクリプトの実行および実行ポリシーの設定の詳細については、「about_Execution_Policies」(https://go.microsoft.com/fwlink/?LinkID=
+                135170) を参照してください
+Signer        : 
+NotAfter      : 
+
+
+
+

@@ -1,0 +1,7 @@
+=== kernel log since 21:14 (any hid/usb)
+(end)
+=== GET_REPORT via hidraw ioctl
+GINPUT 25 ok ret=25 data=0080bb00000000000000000000000000000000000000000000
+GINPUT 24 ok ret=24 data=0080bb000000000000000000000000000000000000000000
+GFEATURE 25 ok ret=25 data=0080bb00000000000000000000000000000000000000000000
+nonblocking read err: [Errno 11] Resource temporarily unavailable

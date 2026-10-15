@@ -1,0 +1,33 @@
+Cabinet: win-driver-1.1.0.8/Disk1/data1.cab
+   123312  <Support>English Files\_IsRes.dll
+   208304  <Support>Non-SelfRegistering\isrt.dll
+     1168  <Support>Non-SelfRegistering\default.pal
+   134576  <Support>Misc i64 Support Files\ISBEW64.exe
+    70064  <Support>Misc x64 Support Files\ISBEW64.exe
+       39  <Support>Build Generated Support Files\FontData.ini
+       86  <Support>Build Generated Support Files\DIFxData.ini
+     9361  Manual\license.txt
+  3178773  Manual\StealthPedal User Manual.pdf
+     9596  Driver\IKClsCoInst.cat
+     1726  Driver\IKClsCoInst.inf
+    12448  Driver\IKStealthPedalLL.cat
+     5252  Driver\IKStealthPedalLL.inf
+    51200  Driver\amd64\IKClsCoInst.dll
+    48640  Driver\amd64\IKStealthPedalAPIx64.dll
+    91648  Driver\amd64\IKStealthPedalASIOx64.dll
+   329728  Driver\amd64\IKStealthPedalASIOx64.exe
+    52224  Driver\amd64\IKStealthPedalLLx64.sys
+    53248  Driver\i386\IKClsCoInst.dll
+    53248  Driver\i386\IKStealthPedalAPI.dll
+    77824  Driver\i386\IKStealthPedalASIO.dll
+   266240  Driver\i386\IKStealthPedalASIO.exe
+    42112  Driver\i386\IKStealthPedalLL.sys
+    65503  <Support>Misc Support Files\corecomp.ini
+    10672  <Support>Misc Support Files\dotnetinstaller.exe
+     1126  <Support>English String Tables\StringTable-0009-English.ips
+     9356  <Support>Language Independent OS Independent Files\license.txt
+   116736  <Support>Language Independent OS Independent Files\64bitHelper.exe
+    72192  <Support>Language Independent OS Independent Files\taskkill.exe
+   118784  <Support>Language Independent OS Independent Files\DriverInstallerDLL_amd64.dll
+ --------  -------
+          30 files

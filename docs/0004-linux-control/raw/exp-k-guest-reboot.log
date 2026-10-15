@@ -1,0 +1,16 @@
+=== K: guest reboot (controller reset by VFIO), then read without command
+Domain 'stealthpedal-ubuntu' is being rebooted
+
+event 'agent-lifecycle' for domain 'stealthpedal-ubuntu': state: 'connected' reason: 'channel event'
+2026-10-13 22:42:06
+Bus 003 Device 002: ID 1963:0003 IK Multimedia StealthPedal
+Oct 13 22:42:07 stealthpedal-ubuntu kernel: usb 3-1: new full-speed USB device number 2 using xhci-pci-renesas
+Oct 13 22:42:07 stealthpedal-ubuntu kernel: usb 3-1: Product: StealthPedal
+Oct 13 22:42:07 stealthpedal-ubuntu kernel: hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:02:00.0-1/input0
+Oct 13 22:42:07 stealthpedal-ubuntu kernel: hid-generic 0003:1963:0003.0002: hiddev0,hidraw1: USB HID v1.00 Device [IK Multimedia StealthPedal] on usb-0000:05:00.0-1/input3
+   0.000 hidraw: /dev/hidraw1
+   0.055 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+   3.056 read without command: 705 reports, lengths={10: 705} first=81 02 80 0c 0e 00 08 02 00 00 last=81 02 80 16 cf 00 08 02 00 00 others=[]
+--- then enable:
+   3.059 sent 00 04 01; read: 721 reports, lengths={10: 720, 1: 1} first=81 02 80 18 0b 00 08 02 00 00 last=81 02 80 23 0a 00 08 02 00 00 others=['80']
+   3.063 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00

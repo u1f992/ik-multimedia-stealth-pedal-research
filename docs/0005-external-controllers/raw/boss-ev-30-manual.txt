@@ -1,0 +1,10 @@
+source: https://static.roland.com/assets/media/pdf/EV-30_eng03_W.pdf
+retrieved: 2026-10-15
+
+11:• Two output jacks are provided, allowing you to control multiple effect processors from a
+22:                                                                                                                                       EXP 2             EXP 1
+26:    and use the EXP 1 and EXP 2 knobs to
+33:                                                                                                    * We cannot guarantee operation if devices made by manufacturers other than BOSS/Roland
+35: Dimensions     (Maximum height)                                                                    * If the POLARITY switch is set to “INV,” EXP 2 operates in the
+36:                80 (W) x 192 (D) x 92 (H) mm, 3-3/16 (W) x 7-9/16 (D) x 3-5/8 (H) inches              opposite direction of control as EXP 1.
+39: Accessories    Owner’s manual, Stereo cable (1 m) x 1

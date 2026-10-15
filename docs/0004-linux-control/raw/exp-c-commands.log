@@ -1,0 +1,9 @@
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+   1.056 before: 242 reports, lengths={10: 242} first=81 02 80 73 e8 00 08 02 00 00 last=81 02 80 77 b5 00 08 02 00 00 others=[]
+   3.058 sent 00 02 00 00; read: 498 reports, lengths={10: 498} first=81 02 80 77 b9 00 08 02 00 00 last=81 02 80 7f 54 00 08 02 00 00 others=[]
+   3.063 after 00 02 00 00: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 00 00 00
+   5.066 sent 00 02 00 02; read: 498 reports, lengths={10: 498} first=81 02 80 7f 58 00 08 02 00 00 last=81 02 80 86 f8 00 08 02 00 00 others=[]
+   5.071 after 00 02 00 02: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 00 00 00
+   7.074 sent 00 07 03; read: 494 reports, lengths={10: 494} first=81 02 80 86 fb 00 08 02 00 00 last=81 02 80 8e 9a 00 08 02 00 00 others=[]
+   7.079 after 00 07 03: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00

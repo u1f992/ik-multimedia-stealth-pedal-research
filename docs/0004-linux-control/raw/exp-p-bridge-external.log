@@ -1,0 +1,1008 @@
+== bridge
+   0.000 pedal cc=11 value=126
+   0.000 switch cc=64 value=0
+   0.000 knob cc=7 value=0
+   0.000 ext-pedal cc=4 value=127
+   0.000 ext-switch1 cc=80 value=0
+   0.000 ext-switch2 cc=81 value=0
+   6.111 ext-switch2 cc=81 value=127
+   7.947 ext-switch2 cc=81 value=0
+   9.683 ext-switch1 cc=80 value=127
+  11.231 ext-switch1 cc=80 value=0
+  13.547 ext-pedal cc=4 value=126
+  13.551 ext-pedal cc=4 value=125
+  13.559 ext-pedal cc=4 value=124
+  13.567 ext-pedal cc=4 value=123
+  13.575 ext-pedal cc=4 value=122
+  13.583 ext-pedal cc=4 value=120
+  13.591 ext-pedal cc=4 value=119
+  13.603 ext-pedal cc=4 value=118
+  13.611 ext-pedal cc=4 value=117
+  13.623 ext-pedal cc=4 value=116
+  13.627 ext-pedal cc=4 value=115
+  13.643 ext-pedal cc=4 value=114
+  13.655 ext-pedal cc=4 value=113
+  13.671 ext-pedal cc=4 value=112
+  13.695 ext-pedal cc=4 value=110
+  13.711 ext-pedal cc=4 value=109
+  13.719 ext-pedal cc=4 value=108
+  13.731 ext-pedal cc=4 value=107
+  13.735 ext-pedal cc=4 value=106
+  13.743 ext-pedal cc=4 value=105
+  13.751 ext-pedal cc=4 value=104
+  13.755 ext-pedal cc=4 value=103
+  13.759 ext-pedal cc=4 value=102
+  13.771 ext-pedal cc=4 value=101
+  13.775 ext-pedal cc=4 value=100
+  13.783 ext-pedal cc=4 value=99
+  13.791 ext-pedal cc=4 value=98
+  13.795 ext-pedal cc=4 value=97
+  13.799 ext-pedal cc=4 value=96
+  13.807 ext-pedal cc=4 value=94
+  13.819 ext-pedal cc=4 value=93
+  13.823 ext-pedal cc=4 value=92
+  13.827 ext-pedal cc=4 value=91
+  13.831 ext-pedal cc=4 value=89
+  13.835 ext-pedal cc=4 value=88
+  13.839 ext-pedal cc=4 value=87
+  13.847 ext-pedal cc=4 value=85
+  13.851 ext-pedal cc=4 value=84
+  13.855 ext-pedal cc=4 value=83
+  13.859 ext-pedal cc=4 value=81
+  13.863 ext-pedal cc=4 value=80
+  13.871 ext-pedal cc=4 value=78
+  13.875 ext-pedal cc=4 value=77
+  13.879 ext-pedal cc=4 value=76
+  13.883 ext-pedal cc=4 value=74
+  13.887 ext-pedal cc=4 value=73
+  13.895 ext-pedal cc=4 value=72
+  13.899 ext-pedal cc=4 value=70
+  13.903 ext-pedal cc=4 value=69
+  13.915 ext-pedal cc=4 value=67
+  13.919 ext-pedal cc=4 value=66
+  13.923 ext-pedal cc=4 value=65
+  13.931 ext-pedal cc=4 value=64
+  13.939 ext-pedal cc=4 value=62
+  13.947 ext-pedal cc=4 value=61
+  13.959 ext-pedal cc=4 value=60
+  13.963 ext-pedal cc=4 value=59
+  13.983 ext-pedal cc=4 value=58
+  13.987 ext-pedal cc=4 value=57
+  14.003 ext-pedal cc=4 value=56
+  14.023 ext-pedal cc=4 value=55
+  14.043 ext-pedal cc=4 value=54
+  14.059 ext-pedal cc=4 value=53
+  14.063 ext-pedal cc=4 value=52
+  14.079 ext-pedal cc=4 value=51
+  14.095 ext-pedal cc=4 value=50
+  14.111 ext-pedal cc=4 value=49
+  14.123 ext-pedal cc=4 value=48
+  14.135 ext-pedal cc=4 value=47
+  14.143 ext-pedal cc=4 value=46
+  14.155 ext-pedal cc=4 value=45
+  14.167 ext-pedal cc=4 value=44
+  14.179 ext-pedal cc=4 value=43
+  14.187 ext-pedal cc=4 value=42
+  14.195 ext-pedal cc=4 value=41
+  14.207 ext-pedal cc=4 value=40
+  14.219 ext-pedal cc=4 value=39
+  14.227 ext-pedal cc=4 value=38
+  14.239 ext-pedal cc=4 value=37
+  14.247 ext-pedal cc=4 value=36
+  14.263 ext-pedal cc=4 value=35
+  14.275 ext-pedal cc=4 value=34
+  14.291 ext-pedal cc=4 value=33
+  14.307 ext-pedal cc=4 value=32
+  14.311 ext-pedal cc=4 value=31
+  14.327 ext-pedal cc=4 value=30
+  14.339 ext-pedal cc=4 value=29
+  14.355 ext-pedal cc=4 value=28
+  14.371 ext-pedal cc=4 value=27
+  14.387 ext-pedal cc=4 value=26
+  14.395 ext-pedal cc=4 value=25
+  14.411 ext-pedal cc=4 value=24
+  14.423 ext-pedal cc=4 value=23
+  14.435 ext-pedal cc=4 value=22
+  14.443 ext-pedal cc=4 value=20
+  14.455 ext-pedal cc=4 value=19
+  14.463 ext-pedal cc=4 value=18
+  14.471 ext-pedal cc=4 value=16
+  14.475 ext-pedal cc=4 value=15
+  14.483 ext-pedal cc=4 value=14
+  14.487 ext-pedal cc=4 value=13
+  14.491 ext-pedal cc=4 value=12
+  14.499 ext-pedal cc=4 value=10
+  14.503 ext-pedal cc=4 value=9
+  14.515 ext-pedal cc=4 value=8
+  14.519 ext-pedal cc=4 value=6
+  14.527 ext-pedal cc=4 value=5
+  14.535 ext-pedal cc=4 value=4
+  14.551 ext-pedal cc=4 value=3
+  14.575 ext-pedal cc=4 value=2
+  14.771 ext-pedal cc=4 value=1
+  14.823 ext-pedal cc=4 value=0
+  15.483 ext-pedal cc=4 value=1
+  15.503 ext-pedal cc=4 value=2
+  15.527 ext-pedal cc=4 value=3
+  15.539 ext-pedal cc=4 value=4
+  15.555 ext-pedal cc=4 value=5
+  15.563 ext-pedal cc=4 value=6
+  15.571 ext-pedal cc=4 value=7
+  15.583 ext-pedal cc=4 value=8
+  15.591 ext-pedal cc=4 value=9
+  15.603 ext-pedal cc=4 value=10
+  15.611 ext-pedal cc=4 value=12
+  15.623 ext-pedal cc=4 value=13
+  15.627 ext-pedal cc=4 value=14
+  15.631 ext-pedal cc=4 value=15
+  15.643 ext-pedal cc=4 value=16
+  15.647 ext-pedal cc=4 value=17
+  15.651 ext-pedal cc=4 value=18
+  15.659 ext-pedal cc=4 value=19
+  15.667 ext-pedal cc=4 value=20
+  15.675 ext-pedal cc=4 value=21
+  15.679 ext-pedal cc=4 value=22
+  15.687 ext-pedal cc=4 value=23
+  15.691 ext-pedal cc=4 value=24
+  15.703 ext-pedal cc=4 value=25
+  15.707 ext-pedal cc=4 value=26
+  15.711 ext-pedal cc=4 value=27
+  15.719 ext-pedal cc=4 value=28
+  15.727 ext-pedal cc=4 value=29
+  15.735 ext-pedal cc=4 value=30
+  15.743 ext-pedal cc=4 value=31
+  15.747 ext-pedal cc=4 value=32
+  15.751 ext-pedal cc=4 value=33
+  15.755 ext-pedal cc=4 value=34
+  15.763 ext-pedal cc=4 value=35
+  15.771 ext-pedal cc=4 value=36
+  15.775 ext-pedal cc=4 value=37
+  15.779 ext-pedal cc=4 value=38
+  15.787 ext-pedal cc=4 value=39
+  15.795 ext-pedal cc=4 value=41
+  15.803 ext-pedal cc=4 value=42
+  15.807 ext-pedal cc=4 value=43
+  15.815 ext-pedal cc=4 value=44
+  15.819 ext-pedal cc=4 value=45
+  15.823 ext-pedal cc=4 value=46
+  15.831 ext-pedal cc=4 value=47
+  15.835 ext-pedal cc=4 value=48
+  15.839 ext-pedal cc=4 value=49
+  15.843 ext-pedal cc=4 value=50
+  15.851 ext-pedal cc=4 value=51
+  15.855 ext-pedal cc=4 value=52
+  15.859 ext-pedal cc=4 value=54
+  15.867 ext-pedal cc=4 value=55
+  15.871 ext-pedal cc=4 value=56
+  15.879 ext-pedal cc=4 value=57
+  15.887 ext-pedal cc=4 value=58
+  15.891 ext-pedal cc=4 value=59
+  15.895 ext-pedal cc=4 value=60
+  15.899 ext-pedal cc=4 value=61
+  15.903 ext-pedal cc=4 value=62
+  15.911 ext-pedal cc=4 value=63
+  15.915 ext-pedal cc=4 value=64
+  15.923 ext-pedal cc=4 value=65
+  15.927 ext-pedal cc=4 value=66
+  15.931 ext-pedal cc=4 value=67
+  15.939 ext-pedal cc=4 value=68
+  15.947 ext-pedal cc=4 value=69
+  15.951 ext-pedal cc=4 value=70
+  15.967 ext-pedal cc=4 value=71
+  15.971 ext-pedal cc=4 value=72
+  15.979 ext-pedal cc=4 value=73
+  15.987 ext-pedal cc=4 value=75
+  15.999 ext-pedal cc=4 value=76
+  16.007 ext-pedal cc=4 value=78
+  16.019 ext-pedal cc=4 value=80
+  16.027 ext-pedal cc=4 value=81
+  16.035 ext-pedal cc=4 value=82
+  16.043 ext-pedal cc=4 value=83
+  16.051 ext-pedal cc=4 value=84
+  16.063 ext-pedal cc=4 value=85
+  16.067 ext-pedal cc=4 value=86
+  16.079 ext-pedal cc=4 value=87
+  16.091 ext-pedal cc=4 value=88
+  16.099 ext-pedal cc=4 value=89
+  16.107 ext-pedal cc=4 value=90
+  16.111 ext-pedal cc=4 value=91
+  16.123 ext-pedal cc=4 value=92
+  16.131 ext-pedal cc=4 value=93
+  16.147 ext-pedal cc=4 value=94
+  16.151 ext-pedal cc=4 value=95
+  16.159 ext-pedal cc=4 value=96
+  16.171 ext-pedal cc=4 value=97
+  16.183 ext-pedal cc=4 value=98
+  16.203 ext-pedal cc=4 value=99
+  16.219 ext-pedal cc=4 value=100
+  16.243 ext-pedal cc=4 value=101
+  16.251 ext-pedal cc=4 value=102
+  16.271 ext-pedal cc=4 value=103
+  16.287 ext-pedal cc=4 value=104
+  16.303 ext-pedal cc=4 value=105
+  16.319 ext-pedal cc=4 value=106
+  16.331 ext-pedal cc=4 value=107
+  16.347 ext-pedal cc=4 value=108
+  16.367 ext-pedal cc=4 value=109
+  16.379 ext-pedal cc=4 value=110
+  16.391 ext-pedal cc=4 value=111
+  16.403 ext-pedal cc=4 value=112
+  16.419 ext-pedal cc=4 value=113
+  16.431 ext-pedal cc=4 value=114
+  16.439 ext-pedal cc=4 value=115
+  16.455 ext-pedal cc=4 value=116
+  16.459 ext-pedal cc=4 value=117
+  16.471 ext-pedal cc=4 value=118
+  16.479 ext-pedal cc=4 value=119
+  16.491 ext-pedal cc=4 value=120
+  16.495 ext-pedal cc=4 value=121
+  16.507 ext-pedal cc=4 value=122
+  16.519 ext-pedal cc=4 value=123
+  16.523 ext-pedal cc=4 value=124
+  16.531 ext-pedal cc=4 value=125
+  16.539 ext-pedal cc=4 value=126
+  16.559 ext-pedal cc=4 value=127
+  20.671 pedal cc=11 value=125
+  20.675 pedal cc=11 value=122
+  20.679 pedal cc=11 value=98
+  20.683 pedal cc=11 value=89
+  20.687 pedal cc=11 value=77
+  20.691 pedal cc=11 value=68
+  20.695 pedal cc=11 value=61
+  20.699 pedal cc=11 value=53
+  20.703 pedal cc=11 value=46
+  20.707 pedal cc=11 value=113
+  20.711 pedal cc=11 value=119
+  20.715 pedal cc=11 value=122
+  20.719 pedal cc=11 value=123
+  20.723 pedal cc=11 value=122
+  20.739 pedal cc=11 value=121
+  20.747 pedal cc=11 value=120
+  20.783 pedal cc=11 value=119
+  20.811 pedal cc=11 value=118
+  20.839 pedal cc=11 value=117
+  20.855 pedal cc=11 value=116
+  20.871 pedal cc=11 value=115
+  20.883 pedal cc=11 value=114
+  20.887 pedal cc=11 value=113
+  20.895 pedal cc=11 value=112
+  20.907 pedal cc=11 value=111
+  20.915 pedal cc=11 value=110
+  20.927 pedal cc=11 value=109
+  20.931 pedal cc=11 value=108
+  20.939 pedal cc=11 value=107
+  20.947 pedal cc=11 value=106
+  20.955 pedal cc=11 value=105
+  20.967 pedal cc=11 value=104
+  20.971 pedal cc=11 value=103
+  20.983 pedal cc=11 value=102
+  20.991 pedal cc=11 value=100
+  21.003 pedal cc=11 value=99
+  21.011 pedal cc=11 value=98
+  21.023 pedal cc=11 value=97
+  21.035 pedal cc=11 value=96
+  21.047 pedal cc=11 value=95
+  21.051 pedal cc=11 value=94
+  21.063 pedal cc=11 value=93
+  21.091 pedal cc=11 value=92
+  21.151 pedal cc=11 value=91
+  21.199 pedal cc=11 value=90
+  21.219 pedal cc=11 value=89
+  21.231 pedal cc=11 value=88
+  21.243 pedal cc=11 value=87
+  21.259 pedal cc=11 value=86
+  21.271 pedal cc=11 value=85
+  21.279 pedal cc=11 value=84
+  21.291 pedal cc=11 value=83
+  21.295 pedal cc=11 value=81
+  21.307 pedal cc=11 value=80
+  21.311 pedal cc=11 value=79
+  21.319 pedal cc=11 value=78
+  21.327 pedal cc=11 value=77
+  21.335 pedal cc=11 value=75
+  21.343 pedal cc=11 value=74
+  21.351 pedal cc=11 value=73
+  21.355 pedal cc=11 value=72
+  21.363 pedal cc=11 value=71
+  21.367 pedal cc=11 value=70
+  21.371 pedal cc=11 value=69
+  21.375 pedal cc=11 value=68
+  21.387 pedal cc=11 value=67
+  21.395 pedal cc=11 value=66
+  21.407 pedal cc=11 value=65
+  21.415 pedal cc=11 value=64
+  21.435 pedal cc=11 value=63
+  21.443 pedal cc=11 value=62
+  21.475 pedal cc=11 value=61
+  21.539 pedal cc=11 value=60
+  21.571 pedal cc=11 value=59
+  21.591 pedal cc=11 value=58
+  21.603 pedal cc=11 value=57
+  21.611 pedal cc=11 value=56
+  21.619 pedal cc=11 value=55
+  21.635 pedal cc=11 value=54
+  21.643 pedal cc=11 value=53
+  21.655 pedal cc=11 value=52
+  21.663 pedal cc=11 value=51
+  21.667 pedal cc=11 value=50
+  21.675 pedal cc=11 value=49
+  21.683 pedal cc=11 value=48
+  21.687 pedal cc=11 value=47
+  21.695 pedal cc=11 value=46
+  21.703 pedal cc=11 value=44
+  21.707 pedal cc=11 value=43
+  21.715 pedal cc=11 value=42
+  21.719 pedal cc=11 value=41
+  21.723 pedal cc=11 value=40
+  21.727 pedal cc=11 value=39
+  21.731 pedal cc=11 value=38
+  21.735 pedal cc=11 value=37
+  21.743 pedal cc=11 value=35
+  21.747 pedal cc=11 value=34
+  21.755 pedal cc=11 value=33
+  21.759 pedal cc=11 value=32
+  21.763 pedal cc=11 value=30
+  21.771 pedal cc=11 value=29
+  21.779 pedal cc=11 value=28
+  21.783 pedal cc=11 value=27
+  21.787 pedal cc=11 value=26
+  21.795 pedal cc=11 value=25
+  21.799 pedal cc=11 value=24
+  21.803 pedal cc=11 value=23
+  21.807 pedal cc=11 value=22
+  21.819 pedal cc=11 value=21
+  21.827 pedal cc=11 value=20
+  21.831 pedal cc=11 value=19
+  21.839 pedal cc=11 value=18
+  21.847 pedal cc=11 value=17
+  21.859 pedal cc=11 value=16
+  21.867 pedal cc=11 value=15
+  21.883 pedal cc=11 value=14
+  21.899 pedal cc=11 value=13
+  21.907 pedal cc=11 value=12
+  21.931 pedal cc=11 value=11
+  21.955 pedal cc=11 value=10
+  21.971 pedal cc=11 value=9
+  21.991 pedal cc=11 value=8
+  22.007 pedal cc=11 value=7
+  22.019 pedal cc=11 value=6
+  22.027 pedal cc=11 value=5
+  22.035 pedal cc=11 value=4
+  22.043 pedal cc=11 value=3
+  22.047 pedal cc=11 value=2
+  22.055 pedal cc=11 value=1
+  22.827 pedal cc=11 value=3
+  22.831 pedal cc=11 value=2
+  22.835 pedal cc=11 value=3
+  22.839 pedal cc=11 value=2
+  22.843 pedal cc=11 value=3
+  22.847 pedal cc=11 value=2
+  22.859 pedal cc=11 value=3
+  22.867 pedal cc=11 value=2
+  22.899 pedal cc=11 value=3
+  22.915 pedal cc=11 value=4
+  22.927 pedal cc=11 value=5
+  22.939 pedal cc=11 value=6
+  22.943 pedal cc=11 value=7
+  22.947 pedal cc=11 value=8
+  22.959 pedal cc=11 value=9
+  22.967 pedal cc=11 value=10
+  22.975 pedal cc=11 value=11
+  22.983 pedal cc=11 value=12
+  22.991 pedal cc=11 value=13
+  22.995 pedal cc=11 value=14
+  23.007 pedal cc=11 value=15
+  23.015 pedal cc=11 value=16
+  23.031 pedal cc=11 value=17
+  23.039 pedal cc=11 value=18
+  23.051 pedal cc=11 value=19
+  23.059 pedal cc=11 value=20
+  23.071 pedal cc=11 value=21
+  23.091 pedal cc=11 value=22
+  23.119 pedal cc=11 value=23
+  23.139 pedal cc=11 value=24
+  23.155 pedal cc=11 value=25
+  23.163 pedal cc=11 value=26
+  23.167 pedal cc=11 value=27
+  23.171 pedal cc=11 value=28
+  23.179 pedal cc=11 value=29
+  23.187 pedal cc=11 value=30
+  23.195 pedal cc=11 value=31
+  23.199 pedal cc=11 value=32
+  23.203 pedal cc=11 value=34
+  23.215 pedal cc=11 value=35
+  23.219 pedal cc=11 value=36
+  23.223 pedal cc=11 value=37
+  23.227 pedal cc=11 value=39
+  23.235 pedal cc=11 value=40
+  23.239 pedal cc=11 value=41
+  23.243 pedal cc=11 value=42
+  23.251 pedal cc=11 value=43
+  23.255 pedal cc=11 value=45
+  23.263 pedal cc=11 value=46
+  23.267 pedal cc=11 value=47
+  23.271 pedal cc=11 value=48
+  23.279 pedal cc=11 value=49
+  23.283 pedal cc=11 value=50
+  23.287 pedal cc=11 value=51
+  23.291 pedal cc=11 value=52
+  23.295 pedal cc=11 value=53
+  23.303 pedal cc=11 value=54
+  23.307 pedal cc=11 value=55
+  23.311 pedal cc=11 value=56
+  23.319 pedal cc=11 value=58
+  23.327 pedal cc=11 value=59
+  23.331 pedal cc=11 value=60
+  23.339 pedal cc=11 value=61
+  23.343 pedal cc=11 value=62
+  23.351 pedal cc=11 value=64
+  23.359 pedal cc=11 value=65
+  23.371 pedal cc=11 value=66
+  23.375 pedal cc=11 value=67
+  23.379 pedal cc=11 value=68
+  23.391 pedal cc=11 value=69
+  23.395 pedal cc=11 value=70
+  23.403 pedal cc=11 value=71
+  23.411 pedal cc=11 value=72
+  23.423 pedal cc=11 value=73
+  23.431 pedal cc=11 value=74
+  23.447 pedal cc=11 value=75
+  23.467 pedal cc=11 value=76
+  23.475 pedal cc=11 value=77
+  23.503 pedal cc=11 value=78
+  23.527 pedal cc=11 value=79
+  23.547 pedal cc=11 value=80
+  23.555 pedal cc=11 value=81
+  23.567 pedal cc=11 value=82
+  23.575 pedal cc=11 value=83
+  23.583 pedal cc=11 value=84
+  23.591 pedal cc=11 value=85
+  23.599 pedal cc=11 value=86
+  23.603 pedal cc=11 value=87
+  23.611 pedal cc=11 value=88
+  23.619 pedal cc=11 value=89
+  23.627 pedal cc=11 value=90
+  23.635 pedal cc=11 value=91
+  23.639 pedal cc=11 value=92
+  23.651 pedal cc=11 value=93
+  23.655 pedal cc=11 value=94
+  23.663 pedal cc=11 value=95
+  23.667 pedal cc=11 value=96
+  23.675 pedal cc=11 value=97
+  23.679 pedal cc=11 value=98
+  23.691 pedal cc=11 value=99
+  23.703 pedal cc=11 value=100
+  23.719 pedal cc=11 value=101
+  23.739 pedal cc=11 value=102
+  23.755 pedal cc=11 value=103
+  23.771 pedal cc=11 value=104
+  23.795 pedal cc=11 value=105
+  23.815 pedal cc=11 value=106
+  23.839 pedal cc=11 value=107
+  23.851 pedal cc=11 value=108
+  23.859 pedal cc=11 value=109
+  23.871 pedal cc=11 value=110
+  23.887 pedal cc=11 value=111
+  23.903 pedal cc=11 value=112
+  23.931 pedal cc=11 value=113
+  24.023 pedal cc=11 value=114
+  24.043 pedal cc=11 value=115
+  24.067 pedal cc=11 value=116
+  24.087 pedal cc=11 value=117
+  24.103 pedal cc=11 value=118
+  24.111 pedal cc=11 value=119
+  24.123 pedal cc=11 value=120
+  24.135 pedal cc=11 value=121
+  24.147 pedal cc=11 value=122
+  24.159 pedal cc=11 value=123
+  24.175 pedal cc=11 value=124
+  24.215 pedal cc=11 value=125
+  24.535 pedal cc=11 value=126
+  31.843 pedal cc=11 value=127
+  34.795 switch cc=64 value=127
+  35.095 switch cc=64 value=0
+== aseqdump
+Waiting for data. Press Ctrl+C to end.
+Source  Event                  Ch  Data
+ 56:0   Control change          0, controller 11, value 126
+ 56:0   Control change          0, controller 64, value 0
+ 56:0   Control change          0, controller 7, value 0
+ 56:0   Control change          0, controller 4, value 127
+ 56:0   Control change          0, controller 80, value 0
+ 56:0   Control change          0, controller 81, value 0
+ 56:0   Control change          0, controller 81, value 127
+ 56:0   Control change          0, controller 81, value 0
+ 56:0   Control change          0, controller 80, value 127
+ 56:0   Control change          0, controller 80, value 0
+ 56:0   Control change          0, controller 4, value 126
+ 56:0   Control change          0, controller 4, value 125
+ 56:0   Control change          0, controller 4, value 124
+ 56:0   Control change          0, controller 4, value 123
+ 56:0   Control change          0, controller 4, value 122
+ 56:0   Control change          0, controller 4, value 120
+ 56:0   Control change          0, controller 4, value 119
+ 56:0   Control change          0, controller 4, value 118
+ 56:0   Control change          0, controller 4, value 117
+ 56:0   Control change          0, controller 4, value 116
+ 56:0   Control change          0, controller 4, value 115
+ 56:0   Control change          0, controller 4, value 114
+ 56:0   Control change          0, controller 4, value 113
+ 56:0   Control change          0, controller 4, value 112
+ 56:0   Control change          0, controller 4, value 110
+ 56:0   Control change          0, controller 4, value 109
+ 56:0   Control change          0, controller 4, value 108
+ 56:0   Control change          0, controller 4, value 107
+ 56:0   Control change          0, controller 4, value 106
+ 56:0   Control change          0, controller 4, value 105
+ 56:0   Control change          0, controller 4, value 104
+ 56:0   Control change          0, controller 4, value 103
+ 56:0   Control change          0, controller 4, value 102
+ 56:0   Control change          0, controller 4, value 101
+ 56:0   Control change          0, controller 4, value 100
+ 56:0   Control change          0, controller 4, value 99
+ 56:0   Control change          0, controller 4, value 98
+ 56:0   Control change          0, controller 4, value 97
+ 56:0   Control change          0, controller 4, value 96
+ 56:0   Control change          0, controller 4, value 94
+ 56:0   Control change          0, controller 4, value 93
+ 56:0   Control change          0, controller 4, value 92
+ 56:0   Control change          0, controller 4, value 91
+ 56:0   Control change          0, controller 4, value 89
+ 56:0   Control change          0, controller 4, value 88
+ 56:0   Control change          0, controller 4, value 87
+ 56:0   Control change          0, controller 4, value 85
+ 56:0   Control change          0, controller 4, value 84
+ 56:0   Control change          0, controller 4, value 83
+ 56:0   Control change          0, controller 4, value 81
+ 56:0   Control change          0, controller 4, value 80
+ 56:0   Control change          0, controller 4, value 78
+ 56:0   Control change          0, controller 4, value 77
+ 56:0   Control change          0, controller 4, value 76
+ 56:0   Control change          0, controller 4, value 74
+ 56:0   Control change          0, controller 4, value 73
+ 56:0   Control change          0, controller 4, value 72
+ 56:0   Control change          0, controller 4, value 70
+ 56:0   Control change          0, controller 4, value 69
+ 56:0   Control change          0, controller 4, value 67
+ 56:0   Control change          0, controller 4, value 66
+ 56:0   Control change          0, controller 4, value 65
+ 56:0   Control change          0, controller 4, value 64
+ 56:0   Control change          0, controller 4, value 62
+ 56:0   Control change          0, controller 4, value 61
+ 56:0   Control change          0, controller 4, value 60
+ 56:0   Control change          0, controller 4, value 59
+ 56:0   Control change          0, controller 4, value 58
+ 56:0   Control change          0, controller 4, value 57
+ 56:0   Control change          0, controller 4, value 56
+ 56:0   Control change          0, controller 4, value 55
+ 56:0   Control change          0, controller 4, value 54
+ 56:0   Control change          0, controller 4, value 53
+ 56:0   Control change          0, controller 4, value 52
+ 56:0   Control change          0, controller 4, value 51
+ 56:0   Control change          0, controller 4, value 50
+ 56:0   Control change          0, controller 4, value 49
+ 56:0   Control change          0, controller 4, value 48
+ 56:0   Control change          0, controller 4, value 47
+ 56:0   Control change          0, controller 4, value 46
+ 56:0   Control change          0, controller 4, value 45
+ 56:0   Control change          0, controller 4, value 44
+ 56:0   Control change          0, controller 4, value 43
+ 56:0   Control change          0, controller 4, value 42
+ 56:0   Control change          0, controller 4, value 41
+ 56:0   Control change          0, controller 4, value 40
+ 56:0   Control change          0, controller 4, value 39
+ 56:0   Control change          0, controller 4, value 38
+ 56:0   Control change          0, controller 4, value 37
+ 56:0   Control change          0, controller 4, value 36
+ 56:0   Control change          0, controller 4, value 35
+ 56:0   Control change          0, controller 4, value 34
+ 56:0   Control change          0, controller 4, value 33
+ 56:0   Control change          0, controller 4, value 32
+ 56:0   Control change          0, controller 4, value 31
+ 56:0   Control change          0, controller 4, value 30
+ 56:0   Control change          0, controller 4, value 29
+ 56:0   Control change          0, controller 4, value 28
+ 56:0   Control change          0, controller 4, value 27
+ 56:0   Control change          0, controller 4, value 26
+ 56:0   Control change          0, controller 4, value 25
+ 56:0   Control change          0, controller 4, value 24
+ 56:0   Control change          0, controller 4, value 23
+ 56:0   Control change          0, controller 4, value 22
+ 56:0   Control change          0, controller 4, value 20
+ 56:0   Control change          0, controller 4, value 19
+ 56:0   Control change          0, controller 4, value 18
+ 56:0   Control change          0, controller 4, value 16
+ 56:0   Control change          0, controller 4, value 15
+ 56:0   Control change          0, controller 4, value 14
+ 56:0   Control change          0, controller 4, value 13
+ 56:0   Control change          0, controller 4, value 12
+ 56:0   Control change          0, controller 4, value 10
+ 56:0   Control change          0, controller 4, value 9
+ 56:0   Control change          0, controller 4, value 8
+ 56:0   Control change          0, controller 4, value 6
+ 56:0   Control change          0, controller 4, value 5
+ 56:0   Control change          0, controller 4, value 4
+ 56:0   Control change          0, controller 4, value 3
+ 56:0   Control change          0, controller 4, value 2
+ 56:0   Control change          0, controller 4, value 1
+ 56:0   Control change          0, controller 4, value 0
+ 56:0   Control change          0, controller 4, value 1
+ 56:0   Control change          0, controller 4, value 2
+ 56:0   Control change          0, controller 4, value 3
+ 56:0   Control change          0, controller 4, value 4
+ 56:0   Control change          0, controller 4, value 5
+ 56:0   Control change          0, controller 4, value 6
+ 56:0   Control change          0, controller 4, value 7
+ 56:0   Control change          0, controller 4, value 8
+ 56:0   Control change          0, controller 4, value 9
+ 56:0   Control change          0, controller 4, value 10
+ 56:0   Control change          0, controller 4, value 12
+ 56:0   Control change          0, controller 4, value 13
+ 56:0   Control change          0, controller 4, value 14
+ 56:0   Control change          0, controller 4, value 15
+ 56:0   Control change          0, controller 4, value 16
+ 56:0   Control change          0, controller 4, value 17
+ 56:0   Control change          0, controller 4, value 18
+ 56:0   Control change          0, controller 4, value 19
+ 56:0   Control change          0, controller 4, value 20
+ 56:0   Control change          0, controller 4, value 21
+ 56:0   Control change          0, controller 4, value 22
+ 56:0   Control change          0, controller 4, value 23
+ 56:0   Control change          0, controller 4, value 24
+ 56:0   Control change          0, controller 4, value 25
+ 56:0   Control change          0, controller 4, value 26
+ 56:0   Control change          0, controller 4, value 27
+ 56:0   Control change          0, controller 4, value 28
+ 56:0   Control change          0, controller 4, value 29
+ 56:0   Control change          0, controller 4, value 30
+ 56:0   Control change          0, controller 4, value 31
+ 56:0   Control change          0, controller 4, value 32
+ 56:0   Control change          0, controller 4, value 33
+ 56:0   Control change          0, controller 4, value 34
+ 56:0   Control change          0, controller 4, value 35
+ 56:0   Control change          0, controller 4, value 36
+ 56:0   Control change          0, controller 4, value 37
+ 56:0   Control change          0, controller 4, value 38
+ 56:0   Control change          0, controller 4, value 39
+ 56:0   Control change          0, controller 4, value 41
+ 56:0   Control change          0, controller 4, value 42
+ 56:0   Control change          0, controller 4, value 43
+ 56:0   Control change          0, controller 4, value 44
+ 56:0   Control change          0, controller 4, value 45
+ 56:0   Control change          0, controller 4, value 46
+ 56:0   Control change          0, controller 4, value 47
+ 56:0   Control change          0, controller 4, value 48
+ 56:0   Control change          0, controller 4, value 49
+ 56:0   Control change          0, controller 4, value 50
+ 56:0   Control change          0, controller 4, value 51
+ 56:0   Control change          0, controller 4, value 52
+ 56:0   Control change          0, controller 4, value 54
+ 56:0   Control change          0, controller 4, value 55
+ 56:0   Control change          0, controller 4, value 56
+ 56:0   Control change          0, controller 4, value 57
+ 56:0   Control change          0, controller 4, value 58
+ 56:0   Control change          0, controller 4, value 59
+ 56:0   Control change          0, controller 4, value 60
+ 56:0   Control change          0, controller 4, value 61
+ 56:0   Control change          0, controller 4, value 62
+ 56:0   Control change          0, controller 4, value 63
+ 56:0   Control change          0, controller 4, value 64
+ 56:0   Control change          0, controller 4, value 65
+ 56:0   Control change          0, controller 4, value 66
+ 56:0   Control change          0, controller 4, value 67
+ 56:0   Control change          0, controller 4, value 68
+ 56:0   Control change          0, controller 4, value 69
+ 56:0   Control change          0, controller 4, value 70
+ 56:0   Control change          0, controller 4, value 71
+ 56:0   Control change          0, controller 4, value 72
+ 56:0   Control change          0, controller 4, value 73
+ 56:0   Control change          0, controller 4, value 75
+ 56:0   Control change          0, controller 4, value 76
+ 56:0   Control change          0, controller 4, value 78
+ 56:0   Control change          0, controller 4, value 80
+ 56:0   Control change          0, controller 4, value 81
+ 56:0   Control change          0, controller 4, value 82
+ 56:0   Control change          0, controller 4, value 83
+ 56:0   Control change          0, controller 4, value 84
+ 56:0   Control change          0, controller 4, value 85
+ 56:0   Control change          0, controller 4, value 86
+ 56:0   Control change          0, controller 4, value 87
+ 56:0   Control change          0, controller 4, value 88
+ 56:0   Control change          0, controller 4, value 89
+ 56:0   Control change          0, controller 4, value 90
+ 56:0   Control change          0, controller 4, value 91
+ 56:0   Control change          0, controller 4, value 92
+ 56:0   Control change          0, controller 4, value 93
+ 56:0   Control change          0, controller 4, value 94
+ 56:0   Control change          0, controller 4, value 95
+ 56:0   Control change          0, controller 4, value 96
+ 56:0   Control change          0, controller 4, value 97
+ 56:0   Control change          0, controller 4, value 98
+ 56:0   Control change          0, controller 4, value 99
+ 56:0   Control change          0, controller 4, value 100
+ 56:0   Control change          0, controller 4, value 101
+ 56:0   Control change          0, controller 4, value 102
+ 56:0   Control change          0, controller 4, value 103
+ 56:0   Control change          0, controller 4, value 104
+ 56:0   Control change          0, controller 4, value 105
+ 56:0   Control change          0, controller 4, value 106
+ 56:0   Control change          0, controller 4, value 107
+ 56:0   Control change          0, controller 4, value 108
+ 56:0   Control change          0, controller 4, value 109
+ 56:0   Control change          0, controller 4, value 110
+ 56:0   Control change          0, controller 4, value 111
+ 56:0   Control change          0, controller 4, value 112
+ 56:0   Control change          0, controller 4, value 113
+ 56:0   Control change          0, controller 4, value 114
+ 56:0   Control change          0, controller 4, value 115
+ 56:0   Control change          0, controller 4, value 116
+ 56:0   Control change          0, controller 4, value 117
+ 56:0   Control change          0, controller 4, value 118
+ 56:0   Control change          0, controller 4, value 119
+ 56:0   Control change          0, controller 4, value 120
+ 56:0   Control change          0, controller 4, value 121
+ 56:0   Control change          0, controller 4, value 122
+ 56:0   Control change          0, controller 4, value 123
+ 56:0   Control change          0, controller 4, value 124
+ 56:0   Control change          0, controller 4, value 125
+ 56:0   Control change          0, controller 4, value 126
+ 56:0   Control change          0, controller 4, value 127
+ 56:0   Control change          0, controller 11, value 125
+ 56:0   Control change          0, controller 11, value 122
+ 56:0   Control change          0, controller 11, value 98
+ 56:0   Control change          0, controller 11, value 89
+ 56:0   Control change          0, controller 11, value 77
+ 56:0   Control change          0, controller 11, value 68
+ 56:0   Control change          0, controller 11, value 61
+ 56:0   Control change          0, controller 11, value 53
+ 56:0   Control change          0, controller 11, value 46
+ 56:0   Control change          0, controller 11, value 113
+ 56:0   Control change          0, controller 11, value 119
+ 56:0   Control change          0, controller 11, value 122
+ 56:0   Control change          0, controller 11, value 123
+ 56:0   Control change          0, controller 11, value 122
+ 56:0   Control change          0, controller 11, value 121
+ 56:0   Control change          0, controller 11, value 120
+ 56:0   Control change          0, controller 11, value 119
+ 56:0   Control change          0, controller 11, value 118
+ 56:0   Control change          0, controller 11, value 117
+ 56:0   Control change          0, controller 11, value 116
+ 56:0   Control change          0, controller 11, value 115
+ 56:0   Control change          0, controller 11, value 114
+ 56:0   Control change          0, controller 11, value 113
+ 56:0   Control change          0, controller 11, value 112
+ 56:0   Control change          0, controller 11, value 111
+ 56:0   Control change          0, controller 11, value 110
+ 56:0   Control change          0, controller 11, value 109
+ 56:0   Control change          0, controller 11, value 108
+ 56:0   Control change          0, controller 11, value 107
+ 56:0   Control change          0, controller 11, value 106
+ 56:0   Control change          0, controller 11, value 105
+ 56:0   Control change          0, controller 11, value 104
+ 56:0   Control change          0, controller 11, value 103
+ 56:0   Control change          0, controller 11, value 102
+ 56:0   Control change          0, controller 11, value 100
+ 56:0   Control change          0, controller 11, value 99
+ 56:0   Control change          0, controller 11, value 98
+ 56:0   Control change          0, controller 11, value 97
+ 56:0   Control change          0, controller 11, value 96
+ 56:0   Control change          0, controller 11, value 95
+ 56:0   Control change          0, controller 11, value 94
+ 56:0   Control change          0, controller 11, value 93
+ 56:0   Control change          0, controller 11, value 92
+ 56:0   Control change          0, controller 11, value 91
+ 56:0   Control change          0, controller 11, value 90
+ 56:0   Control change          0, controller 11, value 89
+ 56:0   Control change          0, controller 11, value 88
+ 56:0   Control change          0, controller 11, value 87
+ 56:0   Control change          0, controller 11, value 86
+ 56:0   Control change          0, controller 11, value 85
+ 56:0   Control change          0, controller 11, value 84
+ 56:0   Control change          0, controller 11, value 83
+ 56:0   Control change          0, controller 11, value 81
+ 56:0   Control change          0, controller 11, value 80
+ 56:0   Control change          0, controller 11, value 79
+ 56:0   Control change          0, controller 11, value 78
+ 56:0   Control change          0, controller 11, value 77
+ 56:0   Control change          0, controller 11, value 75
+ 56:0   Control change          0, controller 11, value 74
+ 56:0   Control change          0, controller 11, value 73
+ 56:0   Control change          0, controller 11, value 72
+ 56:0   Control change          0, controller 11, value 71
+ 56:0   Control change          0, controller 11, value 70
+ 56:0   Control change          0, controller 11, value 69
+ 56:0   Control change          0, controller 11, value 68
+ 56:0   Control change          0, controller 11, value 67
+ 56:0   Control change          0, controller 11, value 66
+ 56:0   Control change          0, controller 11, value 65
+ 56:0   Control change          0, controller 11, value 64
+ 56:0   Control change          0, controller 11, value 63
+ 56:0   Control change          0, controller 11, value 62
+ 56:0   Control change          0, controller 11, value 61
+ 56:0   Control change          0, controller 11, value 60
+ 56:0   Control change          0, controller 11, value 59
+ 56:0   Control change          0, controller 11, value 58
+ 56:0   Control change          0, controller 11, value 57
+ 56:0   Control change          0, controller 11, value 56
+ 56:0   Control change          0, controller 11, value 55
+ 56:0   Control change          0, controller 11, value 54
+ 56:0   Control change          0, controller 11, value 53
+ 56:0   Control change          0, controller 11, value 52
+ 56:0   Control change          0, controller 11, value 51
+ 56:0   Control change          0, controller 11, value 50
+ 56:0   Control change          0, controller 11, value 49
+ 56:0   Control change          0, controller 11, value 48
+ 56:0   Control change          0, controller 11, value 47
+ 56:0   Control change          0, controller 11, value 46
+ 56:0   Control change          0, controller 11, value 44
+ 56:0   Control change          0, controller 11, value 43
+ 56:0   Control change          0, controller 11, value 42
+ 56:0   Control change          0, controller 11, value 41
+ 56:0   Control change          0, controller 11, value 40
+ 56:0   Control change          0, controller 11, value 39
+ 56:0   Control change          0, controller 11, value 38
+ 56:0   Control change          0, controller 11, value 37
+ 56:0   Control change          0, controller 11, value 35
+ 56:0   Control change          0, controller 11, value 34
+ 56:0   Control change          0, controller 11, value 33
+ 56:0   Control change          0, controller 11, value 32
+ 56:0   Control change          0, controller 11, value 30
+ 56:0   Control change          0, controller 11, value 29
+ 56:0   Control change          0, controller 11, value 28
+ 56:0   Control change          0, controller 11, value 27
+ 56:0   Control change          0, controller 11, value 26
+ 56:0   Control change          0, controller 11, value 25
+ 56:0   Control change          0, controller 11, value 24
+ 56:0   Control change          0, controller 11, value 23
+ 56:0   Control change          0, controller 11, value 22
+ 56:0   Control change          0, controller 11, value 21
+ 56:0   Control change          0, controller 11, value 20
+ 56:0   Control change          0, controller 11, value 19
+ 56:0   Control change          0, controller 11, value 18
+ 56:0   Control change          0, controller 11, value 17
+ 56:0   Control change          0, controller 11, value 16
+ 56:0   Control change          0, controller 11, value 15
+ 56:0   Control change          0, controller 11, value 14
+ 56:0   Control change          0, controller 11, value 13
+ 56:0   Control change          0, controller 11, value 12
+ 56:0   Control change          0, controller 11, value 11
+ 56:0   Control change          0, controller 11, value 10
+ 56:0   Control change          0, controller 11, value 9
+ 56:0   Control change          0, controller 11, value 8
+ 56:0   Control change          0, controller 11, value 7
+ 56:0   Control change          0, controller 11, value 6
+ 56:0   Control change          0, controller 11, value 5
+ 56:0   Control change          0, controller 11, value 4
+ 56:0   Control change          0, controller 11, value 3
+ 56:0   Control change          0, controller 11, value 2
+ 56:0   Control change          0, controller 11, value 1
+ 56:0   Control change          0, controller 11, value 3
+ 56:0   Control change          0, controller 11, value 2
+ 56:0   Control change          0, controller 11, value 3
+ 56:0   Control change          0, controller 11, value 2
+ 56:0   Control change          0, controller 11, value 3
+ 56:0   Control change          0, controller 11, value 2
+ 56:0   Control change          0, controller 11, value 3
+ 56:0   Control change          0, controller 11, value 2
+ 56:0   Control change          0, controller 11, value 3
+ 56:0   Control change          0, controller 11, value 4
+ 56:0   Control change          0, controller 11, value 5
+ 56:0   Control change          0, controller 11, value 6
+ 56:0   Control change          0, controller 11, value 7
+ 56:0   Control change          0, controller 11, value 8
+ 56:0   Control change          0, controller 11, value 9
+ 56:0   Control change          0, controller 11, value 10
+ 56:0   Control change          0, controller 11, value 11
+ 56:0   Control change          0, controller 11, value 12
+ 56:0   Control change          0, controller 11, value 13
+ 56:0   Control change          0, controller 11, value 14
+ 56:0   Control change          0, controller 11, value 15
+ 56:0   Control change          0, controller 11, value 16
+ 56:0   Control change          0, controller 11, value 17
+ 56:0   Control change          0, controller 11, value 18
+ 56:0   Control change          0, controller 11, value 19
+ 56:0   Control change          0, controller 11, value 20
+ 56:0   Control change          0, controller 11, value 21
+ 56:0   Control change          0, controller 11, value 22
+ 56:0   Control change          0, controller 11, value 23
+ 56:0   Control change          0, controller 11, value 24
+ 56:0   Control change          0, controller 11, value 25
+ 56:0   Control change          0, controller 11, value 26
+ 56:0   Control change          0, controller 11, value 27
+ 56:0   Control change          0, controller 11, value 28
+ 56:0   Control change          0, controller 11, value 29
+ 56:0   Control change          0, controller 11, value 30
+ 56:0   Control change          0, controller 11, value 31
+ 56:0   Control change          0, controller 11, value 32
+ 56:0   Control change          0, controller 11, value 34
+ 56:0   Control change          0, controller 11, value 35
+ 56:0   Control change          0, controller 11, value 36
+ 56:0   Control change          0, controller 11, value 37
+ 56:0   Control change          0, controller 11, value 39
+ 56:0   Control change          0, controller 11, value 40
+ 56:0   Control change          0, controller 11, value 41
+ 56:0   Control change          0, controller 11, value 42
+ 56:0   Control change          0, controller 11, value 43
+ 56:0   Control change          0, controller 11, value 45
+ 56:0   Control change          0, controller 11, value 46
+ 56:0   Control change          0, controller 11, value 47
+ 56:0   Control change          0, controller 11, value 48
+ 56:0   Control change          0, controller 11, value 49
+ 56:0   Control change          0, controller 11, value 50
+ 56:0   Control change          0, controller 11, value 51
+ 56:0   Control change          0, controller 11, value 52
+ 56:0   Control change          0, controller 11, value 53
+ 56:0   Control change          0, controller 11, value 54
+ 56:0   Control change          0, controller 11, value 55
+ 56:0   Control change          0, controller 11, value 56
+ 56:0   Control change          0, controller 11, value 58
+ 56:0   Control change          0, controller 11, value 59
+ 56:0   Control change          0, controller 11, value 60
+ 56:0   Control change          0, controller 11, value 61
+ 56:0   Control change          0, controller 11, value 62
+ 56:0   Control change          0, controller 11, value 64
+ 56:0   Control change          0, controller 11, value 65
+ 56:0   Control change          0, controller 11, value 66
+ 56:0   Control change          0, controller 11, value 67
+ 56:0   Control change          0, controller 11, value 68
+ 56:0   Control change          0, controller 11, value 69
+ 56:0   Control change          0, controller 11, value 70
+ 56:0   Control change          0, controller 11, value 71
+ 56:0   Control change          0, controller 11, value 72
+ 56:0   Control change          0, controller 11, value 73
+ 56:0   Control change          0, controller 11, value 74
+ 56:0   Control change          0, controller 11, value 75
+ 56:0   Control change          0, controller 11, value 76
+ 56:0   Control change          0, controller 11, value 77
+ 56:0   Control change          0, controller 11, value 78
+ 56:0   Control change          0, controller 11, value 79
+ 56:0   Control change          0, controller 11, value 80
+ 56:0   Control change          0, controller 11, value 81
+ 56:0   Control change          0, controller 11, value 82
+ 56:0   Control change          0, controller 11, value 83
+ 56:0   Control change          0, controller 11, value 84
+ 56:0   Control change          0, controller 11, value 85
+ 56:0   Control change          0, controller 11, value 86
+ 56:0   Control change          0, controller 11, value 87
+ 56:0   Control change          0, controller 11, value 88
+ 56:0   Control change          0, controller 11, value 89
+ 56:0   Control change          0, controller 11, value 90
+ 56:0   Control change          0, controller 11, value 91
+ 56:0   Control change          0, controller 11, value 92
+ 56:0   Control change          0, controller 11, value 93
+ 56:0   Control change          0, controller 11, value 94
+ 56:0   Control change          0, controller 11, value 95
+ 56:0   Control change          0, controller 11, value 96
+ 56:0   Control change          0, controller 11, value 97
+ 56:0   Control change          0, controller 11, value 98
+ 56:0   Control change          0, controller 11, value 99
+ 56:0   Control change          0, controller 11, value 100
+ 56:0   Control change          0, controller 11, value 101
+ 56:0   Control change          0, controller 11, value 102
+ 56:0   Control change          0, controller 11, value 103
+ 56:0   Control change          0, controller 11, value 104
+ 56:0   Control change          0, controller 11, value 105
+ 56:0   Control change          0, controller 11, value 106
+ 56:0   Control change          0, controller 11, value 107
+ 56:0   Control change          0, controller 11, value 108
+ 56:0   Control change          0, controller 11, value 109
+ 56:0   Control change          0, controller 11, value 110
+ 56:0   Control change          0, controller 11, value 111
+ 56:0   Control change          0, controller 11, value 112
+ 56:0   Control change          0, controller 11, value 113
+ 56:0   Control change          0, controller 11, value 114
+ 56:0   Control change          0, controller 11, value 115
+ 56:0   Control change          0, controller 11, value 116
+ 56:0   Control change          0, controller 11, value 117
+ 56:0   Control change          0, controller 11, value 118
+ 56:0   Control change          0, controller 11, value 119
+ 56:0   Control change          0, controller 11, value 120
+ 56:0   Control change          0, controller 11, value 121
+ 56:0   Control change          0, controller 11, value 122
+ 56:0   Control change          0, controller 11, value 123
+ 56:0   Control change          0, controller 11, value 124
+ 56:0   Control change          0, controller 11, value 125
+ 56:0   Control change          0, controller 11, value 126
+ 56:0   Control change          0, controller 11, value 127
+ 56:0   Control change          0, controller 64, value 127
+ 56:0   Control change          0, controller 64, value 0

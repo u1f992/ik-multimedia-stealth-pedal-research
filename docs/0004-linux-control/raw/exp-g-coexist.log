@@ -1,0 +1,15 @@
+   0.000 hidraw: /dev/hidraw1
+   0.056 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+   4.056 read without command: 798 reports, lengths={10: 798} first=81 02 80 09 28 00 08 02 00 00 last=81 02 80 18 62 00 08 02 00 00 others=[]
+--- arecord:
+Recording raw data '/tmp/rec-coexist.raw' : Signed 24 bit Little Endian in 3bytes, Rate 48000 Hz, Stereo
+bytes: 1728000
+--- aplay:
+Playing raw data '/dev/zero' : Signed 24 bit Little Endian in 3bytes, Rate 48000 Hz, Stereo
+Aborted by signal Terminated...
+--- kernel:
+--- stream0 after:
+  Status: Stop
+    Rates: 32000, 44100, 48000
+  Status: Stop
+    Rates: 32000, 44100, 48000

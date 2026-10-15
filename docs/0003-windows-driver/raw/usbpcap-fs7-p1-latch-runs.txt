@@ -1,0 +1,69 @@
+commands written to EP 0x04:
+reports read from EP 0x83: 5607 lengths: {10: 5607}
+report gaps longer than 0.5 s:
+first report     0.012 last report    90.678
+report interval ms: median 16.0 min 3.9 max 32.1
+distinct values per byte:
+  [0] n=  1  0x81
+  [1] n=  1  0x02
+  [2] n=  3  0x80, 0x81, 0x88
+  [3] n=256  0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, ...
+  [4] n=256  0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, ...
+  [5] n=  4  0x00, 0x02, 0x04, 0x06
+  [6] n=  1  0x0a
+  [7] n=  1  0x02
+  [8] n=  1  0x03
+  [9] n=  1  0x01
+
+runs of identical reports ignoring the counter bytes [3] and [4]:
+      0.012 ..     4.216  flags=0x80 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      4.236 ..     4.236  flags=0x88 switch=2 pedal=0x0a ext=0x02 tail=03 01
+      4.240 ..     4.736  flags=0x80 switch=2 pedal=0x0a ext=0x02 tail=03 01
+      4.764 ..     4.764  flags=0x88 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      4.768 ..     5.036  flags=0x80 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      5.052 ..     5.052  flags=0x81 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      5.068 ..     5.452  flags=0x80 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      5.468 ..     5.468  flags=0x88 switch=2 pedal=0x0a ext=0x02 tail=03 01
+      5.472 ..     5.804  flags=0x80 switch=2 pedal=0x0a ext=0x02 tail=03 01
+      5.820 ..     5.820  flags=0x88 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      5.824 ..     6.988  flags=0x80 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      7.004 ..     7.004  flags=0x88 switch=4 pedal=0x0a ext=0x02 tail=03 01
+      7.012 ..     7.308  flags=0x80 switch=4 pedal=0x0a ext=0x02 tail=03 01
+      7.324 ..     7.324  flags=0x88 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      7.328 ..     7.548  flags=0x80 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      7.564 ..     7.564  flags=0x88 switch=4 pedal=0x0a ext=0x02 tail=03 01
+      7.568 ..     8.044  flags=0x80 switch=4 pedal=0x0a ext=0x02 tail=03 01
+      8.060 ..     8.060  flags=0x88 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      8.064 ..     8.956  flags=0x80 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      8.976 ..     8.976  flags=0x88 switch=2 pedal=0x0a ext=0x02 tail=03 01
+      8.980 ..     9.148  flags=0x80 switch=2 pedal=0x0a ext=0x02 tail=03 01
+      9.164 ..     9.164  flags=0x88 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      9.168 ..     9.596  flags=0x80 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      9.612 ..     9.612  flags=0x88 switch=2 pedal=0x0a ext=0x02 tail=03 01
+      9.616 ..     9.900  flags=0x80 switch=2 pedal=0x0a ext=0x02 tail=03 01
+      9.916 ..     9.916  flags=0x88 switch=6 pedal=0x0a ext=0x02 tail=03 01
+      9.924 ..    12.108  flags=0x80 switch=6 pedal=0x0a ext=0x02 tail=03 01
+     12.124 ..    12.124  flags=0x88 switch=2 pedal=0x0a ext=0x02 tail=03 01
+     12.128 ..    12.364  flags=0x80 switch=2 pedal=0x0a ext=0x02 tail=03 01
+     12.380 ..    12.380  flags=0x88 switch=6 pedal=0x0a ext=0x02 tail=03 01
+     12.384 ..    21.248  flags=0x80 switch=6 pedal=0x0a ext=0x02 tail=03 01
+     21.268 ..    21.268  flags=0x88 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     21.272 ..    21.872  flags=0x80 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     21.889 ..    21.889  flags=0x81 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     21.904 ..    37.408  flags=0x80 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     37.424 ..    37.424  flags=0x88 switch=4 pedal=0x0a ext=0x02 tail=03 01
+     37.428 ..    38.704  flags=0x80 switch=4 pedal=0x0a ext=0x02 tail=03 01
+     38.720 ..    38.720  flags=0x81 switch=4 pedal=0x0a ext=0x02 tail=03 01
+     38.736 ..    44.799  flags=0x80 switch=4 pedal=0x0a ext=0x02 tail=03 01
+     44.819 ..    44.819  flags=0x88 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     44.823 ..    50.655  flags=0x80 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     50.671 ..    50.671  flags=0x88 switch=2 pedal=0x0a ext=0x02 tail=03 01
+     50.675 ..    55.535  flags=0x80 switch=2 pedal=0x0a ext=0x02 tail=03 01
+     55.551 ..    55.551  flags=0x81 switch=2 pedal=0x0a ext=0x02 tail=03 01
+     55.567 ..    57.151  flags=0x80 switch=2 pedal=0x0a ext=0x02 tail=03 01
+     57.167 ..    57.167  flags=0x88 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     57.171 ..    72.367  flags=0x80 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     72.383 ..    72.383  flags=0x81 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     72.399 ..    89.211  flags=0x80 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     89.223 ..    89.223  flags=0x81 switch=0 pedal=0x0a ext=0x02 tail=03 01
+     89.238 ..    90.678  flags=0x80 switch=0 pedal=0x0a ext=0x02 tail=03 01

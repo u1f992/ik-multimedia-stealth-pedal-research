@@ -1,0 +1,29 @@
+# zip
+7d71286a2e3110f2f2069d94ece0dd93479b3bd839abff2cb2ae4e80574ade27  StealthPedal_Windows_Drivers_1.1.0.8_64bit.zip
+Archive:  .tmp/StealthPedal_Windows_Drivers_1.1.0.8_64bit.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2009-08-10 19:56   StealthPedal Windows Drivers 1.1.0.8 64bit/
+    35320  2009-08-10 17:47   StealthPedal Windows Drivers 1.1.0.8 64bit/StealthPedal Drivers 1.1.0.8.pdf
+  5251275  2009-07-29 10:33   StealthPedal Windows Drivers 1.1.0.8 64bit/Install StealthPedal Drivers 1.1.0.8 64bit.exe
+---------                     -------
+  5286595                     3 files
+
+# installer
+PE32 executable (GUI) Intel 80386, for MS Windows, 4 sections
+
+# extracted driver files
+9596 6ca840b9af52cd8df16d3c350f375b62327b3b4cd6bb8375650e9ea7fbe2b778 ./IKClsCoInst.cat
+1726 13057e6ecd8f32ced805b5e47c3672a96a5691d58b79148e90eead851da858ec ./IKClsCoInst.inf
+12448 b652d46702d0b9e731572ffc70218200d2a0c6db9f5d58b58bd22e62e7d54a29 ./IKStealthPedalLL.cat
+5252 a3bbf2e95fe66f909d726acce972698fbcccbdb8914b11d46e9741d8fe25afe2 ./IKStealthPedalLL.inf
+51200 c51d652638490e6ccf388af461cb17c5bb873f3d2858b5788b50f9ee1f2aeda9 ./amd64/IKClsCoInst.dll
+48640 f72ffae790888717f8bbdfcfaf32cd6f73e795f6f16592aebff66f81f2c549dd ./amd64/IKStealthPedalAPIx64.dll
+91648 96e511c01ffb439641af6a052ac75b64d287c3d9ef46be0cef97f03e5db1d085 ./amd64/IKStealthPedalASIOx64.dll
+329728 3256520f624be0c4b4354de7098084e1e8ed450bb9213e875bb46073c361185d ./amd64/IKStealthPedalASIOx64.exe
+52224 35e2412bcbacb3eca50d8acb1b988bfa717b78cd47863dcdc13b5d56e4a8bd48 ./amd64/IKStealthPedalLLx64.sys
+53248 74b0f4b59e45c673195b2f6c218ba391ce3353bc3260586da5d27b5546b70a1d ./i386/IKClsCoInst.dll
+53248 e8489bbb396c356e7d135d58d82f34de3a1879fe78982e453f339cb0e0b5273d ./i386/IKStealthPedalAPI.dll
+77824 500417e81ca99a8316d95b2c45a0231c527d573b47137c737bf458b005712140 ./i386/IKStealthPedalASIO.dll
+266240 b8c6739e12fa92269afe5dce269e4b395f5120f3a35a28918fc9ed68e15f1320 ./i386/IKStealthPedalASIO.exe
+42112 65bfb93acd90a128102f6ee892bad182ab67ea425726f11d0bc46bd89e5f5734 ./i386/IKStealthPedalLL.sys

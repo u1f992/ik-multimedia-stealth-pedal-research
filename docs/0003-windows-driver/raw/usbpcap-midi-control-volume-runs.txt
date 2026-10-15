@@ -1,0 +1,35 @@
+commands written to EP 0x04:
+     23.723  00 04 01
+     23.736  00 02 00 00
+     23.737  00 02 00 02
+     23.741  00 07 03
+     36.543  00 07 00
+     51.734  00 07 03
+reports read from EP 0x83: 3503 lengths: {10: 3502, 1: 1}
+report gaps longer than 0.5 s:
+first report    23.728 last report    81.585
+report interval ms: median 16.0 min 8.1 max 29.3
+distinct values per byte:
+  [0] n=  1  0x81
+  [1] n=  1  0x02
+  [2] n=  2  0x80, 0x81
+  [3] n=221  0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, ...
+  [4] n=256  0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, ...
+  [5] n=  1  0x00
+  [6] n=  1  0x09
+  [7] n=  1  0x02
+  [8] n=  1  0x00
+  [9] n=  1  0x00
+
+runs of identical reports ignoring the counter bytes [3] and [4]:
+     23.728 ..    23.728  flags=0x80 switch=0 pedal=0x09 ext=0x02 tail=00 00
+     23.736 ..    23.736  flags=0x81 switch=0 pedal=0x09 ext=0x02 tail=00 00
+     23.752 ..    27.699  flags=0x80 switch=0 pedal=0x09 ext=0x02 tail=00 00
+     27.715 ..    27.715  flags=0x81 switch=0 pedal=0x09 ext=0x02 tail=00 00
+     27.731 ..    44.535  flags=0x80 switch=0 pedal=0x09 ext=0x02 tail=00 00
+     44.551 ..    44.551  flags=0x81 switch=0 pedal=0x09 ext=0x02 tail=00 00
+     44.567 ..    61.355  flags=0x80 switch=0 pedal=0x09 ext=0x02 tail=00 00
+     61.375 ..    61.375  flags=0x81 switch=0 pedal=0x09 ext=0x02 tail=00 00
+     61.391 ..    78.187  flags=0x80 switch=0 pedal=0x09 ext=0x02 tail=00 00
+     78.202 ..    78.202  flags=0x81 switch=0 pedal=0x09 ext=0x02 tail=00 00
+     78.219 ..    81.585  flags=0x80 switch=0 pedal=0x09 ext=0x02 tail=00 00

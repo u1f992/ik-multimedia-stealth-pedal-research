@@ -1,0 +1,15 @@
+*.iso
+*.qcow2
+*.zip
+*.exe
+*.msi
+*.cab
+*.hdr
+*.inx
+*.sys
+*.dll
+*.cat
+*.inf
+*.pdf
+*.asm
+__pycache__/

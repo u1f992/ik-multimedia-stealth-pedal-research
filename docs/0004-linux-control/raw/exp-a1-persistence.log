@@ -1,0 +1,3 @@
+   0.000 hidraw: /dev/hidraw1
+   0.055 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+   3.056 read without command: 744 reports, lengths={10: 744} first=81 02 80 b6 98 00 08 02 00 00 last=81 02 80 c2 02 00 08 02 00 00 others=[]

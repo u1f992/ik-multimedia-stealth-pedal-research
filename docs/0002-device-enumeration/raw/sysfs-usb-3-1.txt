@@ -1,0 +1,59 @@
+idVendor=1963
+idProduct=0003
+bcdDevice=0101
+version= 1.10
+speed=12
+bDeviceClass=00
+bDeviceSubClass=00
+bDeviceProtocol=00
+bMaxPacketSize0=8
+bNumConfigurations=1
+bConfigurationValue=1
+bNumInterfaces= 4
+bMaxPower=500mA
+bmAttributes=80
+manufacturer=IK Multimedia
+product=StealthPedal
+serial=
+busnum=3
+devnum=2
+devpath=1
+
+[3-1:1.0]
+bInterfaceNumber=00
+bAlternateSetting= 0
+bNumEndpoints=00
+bInterfaceClass=01
+bInterfaceSubClass=01
+bInterfaceProtocol=00
+driver=snd-usb-audio
+
+[3-1:1.1]
+bInterfaceNumber=01
+bAlternateSetting= 0
+bNumEndpoints=00
+bInterfaceClass=01
+bInterfaceSubClass=02
+bInterfaceProtocol=00
+driver=snd-usb-audio
+
+[3-1:1.2]
+bInterfaceNumber=02
+bAlternateSetting= 0
+bNumEndpoints=00
+bInterfaceClass=01
+bInterfaceSubClass=02
+bInterfaceProtocol=00
+driver=snd-usb-audio
+
+[3-1:1.3]
+bInterfaceNumber=03
+bAlternateSetting= 0
+bNumEndpoints=02
+bInterfaceClass=03
+bInterfaceSubClass=00
+bInterfaceProtocol=00
+driver=usbhid
+ep_04: bEndpointAddress=04 bmAttributes=03 wMaxPacketSize=0040 bInterval=04 direction=out type=Interrupt
+ep_83: bEndpointAddress=83 bmAttributes=03 wMaxPacketSize=0018 bInterval=04 direction=in type=Interrupt
+

@@ -1,0 +1,68 @@
+=== signer chain
+Subject: E=tools.manager@ikmultimedia.com, CN=IK Multimedia Production srl, O=IK Multimedia Production srl, L=Modena, S=MO, C=IT
+Issuer: CN=GlobalSign ObjectSign CA, OU=ObjectSign CA, O=GlobalSign nv-sa, C=BE
+Thumbprint: 6C331F267399E9C4B0010BFABB92C5D1984D51D7
+Valid: 07/07/2009 22:59:37 .. 07/08/2010 22:59:31
+Timestamper: E=timestampinfo@globalsign.com, CN=GlobalSign Time Stamping Authority, O=GlobalSign
+  chain: E=tools.manager@ikmultimedia.com, CN=IK Multimedia Production srl, O=IK Multimedia Production srl, L=Modena, S=MO, C=IT
+  chain: CN=GlobalSign ObjectSign CA, OU=ObjectSign CA, O=GlobalSign nv-sa, C=BE
+  chain: CN=GlobalSign Primary Object Publishing CA, OU=Primary Object Publishing CA, O=GlobalSign nv-sa, C=BE
+  chain: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+=== import signer into TrustedPublisher
+
+Thumbprint                               Subject                                                                       
+----------                               -------                                                                       
+6C331F267399E9C4B0010BFABB92C5D1984D51D7 E=tools.manager@ikmultimedia.com, CN=IK Multimedia Production srl, O=IK Mul...
+
+
+
+=== pnputil again
+Microsoft PnP Utility
+
+Adding driver package:  IKStealthPedalLL.inf
+Driver package added successfully.
+Published Name:         oem16.inf
+Driver package installed on device: USB\VID_1963&PID_0003\6&2684214c&0&3
+
+Total driver packages:  1
+Added driver packages:  1
+
+=== binding
+OK MEDIA [IK Multimedia StealthPedal] USB\VID_1963&PID_0003\6&2684214C&0&3 :: oem16.inf / IKStealthPedal / 0
+=== driver state / code integrity events
+
+Name           State   Started PathName                                        
+----           -----   ------- --------                                        
+IKStealthPedal Running    True C:\WINDOWS\system32\DRIVERS\IKStealthPedalLL.sys
+
+
+
+
+
+TimeCreated : 2026/10/12 22:19:12
+Id          : 3089
+Message     : Signature information for another event. Match using the Correlation Id.
+
+TimeCreated : 2026/10/12 22:19:12
+Id          : 3076
+Message     : Code Integrity determined that a process (System) attempted to load \Device\HarddiskVolume3\Windows\System32\drivers\IKStealthPedalLL.sys that did
+               not meet the Authenticode signing level requirements or violated code integrity policy (Policy ID:{784c4414-79f4-4c32-a6a5-f0fb42a51d0d}). Howeve
+              r, due to code integrity auditing policy, the image was allowed to load.
+
+TimeCreated : 2026/10/12 22:12:24
+Id          : 3089
+Message     : Signature information for another event. Match using the Correlation Id.
+
+TimeCreated : 2026/10/12 22:12:24
+Id          : 3004
+Message     : Windows is unable to verify the image integrity of the file \Device\HarddiskVolume3\ProgramData\Microsoft\Windows Defender\Platform\4.18.26080.4-0
+              \DefenderSessionHelper.exe because file hash could not be found on the system. A recent hardware or software change might have installed a file th
+              at is signed incorrectly or damaged, or that might be malicious software from an unknown source.
+
+TimeCreated : 2026/10/12 22:12:20
+Id          : 3116
+Message     : Signature information for Code Integrity policy ID {2678656c-05ef-481f-bc5b-ebd8c991502d}.
+
+
+
+

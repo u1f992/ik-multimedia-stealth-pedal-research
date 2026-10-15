@@ -1,0 +1,9 @@
+   0.000 pedal cc=11 value=0
+   0.000 switch cc=64 value=0
+   0.000 knob cc=7 value=0
+--- aseqdump:
+Waiting for data. Press Ctrl+C to end.
+Source  Event                  Ch  Data
+ 16:0   Control change          0, controller 11, value 0
+ 16:0   Control change          0, controller 64, value 0
+ 16:0   Control change          0, controller 7, value 0

@@ -1,0 +1,21 @@
+=== whoami / os
+desktop-hehqa2j\mukai
+Microsoft Windows 11 Home
+10.0.26300
+=== Renesas controller and StealthPedal as seen by Windows
+
+Status Class    FriendlyName                                                 InstanceId                                                    
+------ -----    ------------                                                 ----------                                                    
+OK     MEDIA    StealthPedal                                                 USB\VID_1963&PID_0003&MI_00\7&182DF32E&0&0000                 
+OK     USB      Renesas USB 3.0 eXtensible Host Controller - 1.0 (Microsoft) PCI\VEN_1912&DEV_0015&SUBSYS_00151912&REV_02\4&37F5FC5A&0&0016
+OK     HIDClass HID-compliant vendor-defined device                          HID\VID_1963&PID_0003&MI_03\8&14A4A039&0&0000                 
+OK     HIDClass USB Input Device                                             USB\VID_1963&PID_0003&MI_03\7&182DF32E&0&0003                 
+OK     USB      USB Composite Device                                         USB\VID_1963&PID_0003\6&2684214C&0&3                          
+
+
+
+=== drivers bound (before install)
+USB\VID_1963&PID_0003&MI_00\7&182DF32E&0&0000 :: wdma_usb.inf / usbaudio
+HID\VID_1963&PID_0003&MI_03\8&14A4A039&0&0000 :: input.inf / 
+USB\VID_1963&PID_0003&MI_03\7&182DF32E&0&0003 :: input.inf / HidUsb
+USB\VID_1963&PID_0003\6&2684214C&0&3 :: usb.inf / usbccgp

@@ -1,0 +1,97 @@
+== obs-knob-baseline
+21:26:09.837 numid=5 values=76
+end numid=5 values=76
+   0.000 hidraw: /dev/hidraw1
+   0.056 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 30 30 00
+   1.056 read without command: 210 reports, lengths={10: 210} first=81 02 80 60 fc 00 ef eb 5d 30 last=81 02 80 64 c9 00 ef eb 98 4f others=[]
+== obs-cmd-07-00
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 7f 7f 00
+   1.056 before: 219 reports, lengths={10: 219} first=81 02 80 b2 2d 00 ef eb f7 7f last=81 02 80 b5 fa 00 ef eb f7 7f others=[]
+   3.060 sent 00 07 00; read: 498 reports, lengths={10: 498} first=81 02 80 b5 fe 00 ef eb f7 7f last=81 02 80 bd 99 00 ef eb 78 3d others=[]
+   3.065 after 00 07 00: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 7f 7f 00
+== obs-after-07-00
+   0.000 hidraw: /dev/hidraw1
+   0.056 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 7f 7f 00
+   1.056 read without command: 251 reports, lengths={10: 251} first=81 02 80 dd 00 00 ef eb db 71 last=81 02 84 e0 d1 00 ef eb 5c 2f others=[]
+21:27:02.827 numid=5 values=76
+end numid=5 values=76
+== obs-cmd-07-03
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 7f 7f 00
+   1.057 before: 250 reports, lengths={10: 250} first=81 02 80 8f c9 00 ef 8c 5b 2f last=81 02 80 93 98 00 ef 8c 5b 2f others=[]
+   3.060 sent 00 07 03; read: 408 reports, lengths={10: 408} first=81 02 80 93 9c 00 ef 8c 5b 2f last=81 02 80 9b 36 00 ef 8c 5b 2f others=[]
+   3.065 after 00 07 03: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 2f 2f 00
+== obs-cmd-04-00
+   0.000 hidraw: /dev/hidraw1
+   0.055 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+   1.056 before: 218 reports, lengths={10: 218} first=81 02 80 95 ae 00 ef 8c 00 00 last=81 02 80 99 83 00 ef 8c 00 00 others=[]
+   3.057 sent 00 04 00; read: 1 reports, lengths={1: 1} others=['80']
+   3.062 after 00 04 00: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+== obs-stopped-getreport
+   0.000 hidraw: /dev/hidraw1
+   0.056 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+   0.561 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+== obs-cmd-04-01
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+   1.057 before: 0 reports, lengths={} others=[]
+   3.059 sent 00 04 01; read: 433 reports, lengths={1: 1, 10: 432} first=81 02 85 76 19 00 ef eb 00 00 last=81 02 80 7d ab 00 ef eb 00 00 others=['80']
+   3.064 after 00 04 01: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00
+== obs-cmd-02-00-00
+   0.000 hidraw: /dev/hidraw1
+   0.056 GET_REPORT: 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 43 43 00
+   1.056 read without command: 215 reports, lengths={10: 215} first=81 02 80 29 fa 00 ef eb 81 43 last=81 02 80 2d c7 00 ef eb 81 43 others=[]
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 43 43 00
+   1.056 before: 216 reports, lengths={10: 216} first=81 02 80 2e 10 00 ef eb 81 43 last=81 02 80 31 df 00 ef eb 81 43 others=[]
+   3.059 sent 00 02 00 00; read: 433 reports, lengths={10: 433} first=81 02 80 31 e3 00 ef eb 81 43 last=81 02 80 39 7d 00 ef eb 81 43 others=[]
+   3.064 after 00 02 00 00: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 43 43 00
+== obs-cmd-02-00-02
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+   1.057 before: 208 reports, lengths={10: 208} first=81 02 80 06 a1 00 ef eb 7a 3f last=81 02 80 0a 6f 00 ef eb 7a 3f others=[]
+   3.058 sent 00 02 00 02; read: 413 reports, lengths={10: 413} first=81 02 80 0a 73 00 ef eb 7a 3f last=81 02 80 12 09 00 ef eb 7a 3f others=[]
+   3.063 after 00 02 00 02: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+== obs-cmd-02-00-01
+   0.000 hidraw: /dev/hidraw1
+   0.057 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+   1.057 before: 218 reports, lengths={10: 218} first=81 02 80 59 2b 00 ef eb 7a 3f last=81 02 80 5c f8 00 ef eb 7a 3f others=[]
+   3.061 sent 00 02 00 01; read: 434 reports, lengths={10: 434} first=81 02 80 5c fc 00 ef eb 7a 3f last=81 02 80 64 9b 00 ef eb 7a 3f others=[]
+   3.066 after 00 02 00 01: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+== obs-cmd-02-00-03
+   0.000 hidraw: /dev/hidraw1
+   0.055 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+   1.055 before: 216 reports, lengths={10: 216} first=81 02 80 bc a9 00 ef eb 7a 3f last=81 02 80 c0 7a 00 ef eb 7a 3f others=[]
+   3.057 sent 00 02 00 03; read: 429 reports, lengths={10: 429} first=81 02 80 c0 7e 00 ef eb 7a 3f last=81 02 80 c8 11 00 ef eb 7a 3f others=[]
+   3.061 after 00 02 00 03: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+== obs-cmd-02-00-04
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+   1.056 before: 210 reports, lengths={10: 210} first=81 02 80 0f 64 00 ef eb 7a 3f last=81 02 80 13 36 00 ef eb 7a 3f others=[]
+   3.057 sent 00 02 00 04; read: 415 reports, lengths={10: 415} first=81 02 80 13 39 00 ef eb 7a 3f last=81 02 80 1a d0 00 ef eb 7a 3f others=[]
+   3.062 after 00 02 00 04: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+== obs-cmd-02-00-07
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+   1.056 before: 218 reports, lengths={10: 218} first=81 02 80 66 91 00 ef eb 7a 3f last=81 02 80 6a 66 00 ef eb 7a 3f others=[]
+   3.057 sent 00 02 00 07; read: 431 reports, lengths={10: 431} first=81 02 80 6a 6a 00 ef eb 7a 3f last=81 02 80 72 01 00 ef eb 7a 3f others=[]
+   3.062 after 00 02 00 07: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+== obs-cmd-02-01-02
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+   1.057 before: 217 reports, lengths={10: 217} first=81 02 80 b0 0a 00 ef eb 7a 3f last=81 02 80 b3 d3 00 ef eb 7a 3f others=[]
+   3.059 sent 00 02 01 02; read: 434 reports, lengths={10: 434} first=81 02 80 b3 d9 00 ef eb 7a 3f last=81 02 80 bb 76 00 ef eb 7a 3f others=[]
+   3.063 after 00 02 01 02: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+== obs-cmd-02-01-00
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+   1.056 before: 203 reports, lengths={10: 203} first=81 02 80 3c d6 00 ef eb 7a 3f last=81 02 80 40 a3 00 ef eb 7a 3f others=[]
+   3.059 sent 00 02 01 00; read: 407 reports, lengths={10: 407} first=81 02 80 40 a7 00 ef eb 7a 3f last=81 02 80 48 3e 00 ef eb 7a 3f others=[]
+   3.064 after 00 02 01 00: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+== obs-cmd-02-00-02-restore
+   0.000 hidraw: /dev/hidraw1
+   0.056 before: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00
+   1.056 before: 218 reports, lengths={10: 218} first=81 02 80 bd 87 00 ef eb 7a 3f last=81 02 80 c1 54 00 ef eb 7a 3f others=[]
+   3.059 sent 00 02 00 02; read: 431 reports, lengths={10: 431} first=81 02 80 c1 58 00 ef eb 7a 3f last=81 02 80 c8 ef 00 ef eb 7a 3f others=[]
+   3.064 after 00 02 00 02: GET_REPORT 80 bb 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 3f 3f 00

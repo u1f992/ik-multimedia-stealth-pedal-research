@@ -1,0 +1,19 @@
+amixer: Unable to find simple control 'Analog In Capture Volume',0
+
+amixer: Unable to find simple control 'Analog In Capture Volume',0
+
+amixer: Unable to find simple control 'Analog In Capture Volume',0
+
+amixer: Unable to find simple control 'Analog In Capture Volume',0
+
+amixer: Unable to find simple control 'PCM Playback Volume',0
+
+Recording raw data '/tmp/rec-48000.raw' : Signed 24 bit Little Endian in 3bytes, Rate 48000 Hz, Stereo
+capture 48000 Hz: 576000 bytes (expected 576000)
+Recording raw data '/tmp/rec-44100.raw' : Signed 24 bit Little Endian in 3bytes, Rate 44100 Hz, Stereo
+capture 44100 Hz: 529200 bytes (expected 529200)
+Recording raw data '/tmp/rec-32000.raw' : Signed 24 bit Little Endian in 3bytes, Rate 32000 Hz, Stereo
+capture 32000 Hz: 384000 bytes (expected 384000)
+--- mixer
+Oct 13 22:33:54 stealthpedal-ubuntu kernel: usb 3-1: current rate 48000 is different from the runtime rate 44100
+Oct 13 22:33:57 stealthpedal-ubuntu kernel: usb 3-1: current rate 48000 is different from the runtime rate 32000

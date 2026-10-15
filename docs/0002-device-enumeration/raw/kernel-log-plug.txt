@@ -1,0 +1,8 @@
+Oct 12 21:12:28 stealthpedal-ubuntu kernel: usb 3-1: new full-speed USB device number 2 using xhci-pci-renesas
+Oct 12 21:12:28 stealthpedal-ubuntu kernel: usb 3-1: New USB device found, idVendor=1963, idProduct=0003, bcdDevice= 1.01
+Oct 12 21:12:28 stealthpedal-ubuntu kernel: usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct 12 21:12:28 stealthpedal-ubuntu kernel: usb 3-1: Product: StealthPedal
+Oct 12 21:12:28 stealthpedal-ubuntu kernel: usb 3-1: Manufacturer: IK Multimedia
+Oct 12 21:12:28 stealthpedal-ubuntu kernel: hid-generic 0003:1963:0003.0002: hiddev0,hidraw1: USB HID v1.00 Device [IK Multimedia StealthPedal] on usb-0000:05:00.0-1/input3
+Oct 12 21:12:28 stealthpedal-ubuntu kernel: mc: Linux media interface: v0.10
+Oct 12 21:12:28 stealthpedal-ubuntu kernel: usbcore: registered new interface driver snd-usb-audio

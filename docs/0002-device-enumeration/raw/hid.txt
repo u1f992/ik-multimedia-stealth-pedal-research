@@ -1,0 +1,23 @@
+DRIVER=hid-generic
+HID_ID=0003:00001963:00000003
+HID_NAME=IK Multimedia StealthPedal
+HID_PHYS=usb-0000:05:00.0-1/input3
+HID_UNIQ=
+MODALIAS=hid:b0003g0001v00001963p00000003
+
+# report_descriptor (4096 bytes in sysfs; od of the whole file)
+ 06 00 ff 09 01 a1 01 09 02 15 00 26 ff 00 75 08
+ 95 18 81 02 09 03 15 00 26 ff 00 75 08 95 40 92
+ 02 01 c0
+
+# /proc/bus/input/devices entries mentioning StealthPedal
+(none)
+
+# /dev/input/by-id
+total 0
+drwxr-xr-x 2 root root 120 Oct 12 21:12 .
+drwxr-xr-x 4 root root 320 Oct 12 21:10 ..
+lrwxrwxrwx 1 root root  13 Oct 12 21:12 usb-IK_Multimedia_StealthPedal-if03-hidraw -> ../../hidraw1
+lrwxrwxrwx 1 root root   9 Oct 12 21:10 usb-QEMU_QEMU_USB_Tablet_28754-0000:00:02.1:00.0-1-event-mouse -> ../event4
+lrwxrwxrwx 1 root root  13 Oct 12 21:10 usb-QEMU_QEMU_USB_Tablet_28754-0000:00:02.1:00.0-1-hidraw -> ../../hidraw0
+lrwxrwxrwx 1 root root   9 Oct 12 21:10 usb-QEMU_QEMU_USB_Tablet_28754-0000:00:02.1:00.0-1-mouse -> ../mouse2

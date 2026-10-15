@@ -1,0 +1,127 @@
+source: https://g1.ikmultimedia.com/html/stealthpedal/download/StealthPedal_CS_User_Manual.pdf
+retrieved: 2026-10-15
+
+           3.4 Connecting External Expression Pedal and Double Footswitch
+
+                To extend StealthPedal control capabilities you can connect an External
+                Expression Pedal and an External Dual Footswitch (figure 3.8).
+
+
+
+
+                figure 3.8
+
+
+
+
+­32                                                 3 - Setups and Connections
+                                                                  StealthPedal CS              ™
+
+
+
+
+                        External Expression Pedal
+
+                        You can connect an external Expression Pedal to the Expression Pedal 1/4”
+                        TRS Jack (figure 3.9).
+
+
+
+
+                        figure 3.9
+
+                        Note: You may use a third-party Expression Pedal or the one available
+                        for purchase from IK Multimedia, made specifically for use with your
+                        StealthPedal (figure 3.10).
+
+
+
+
+                        figure 3.10
+
+
+                        Be sure to use a 1/4” TRS cable (or “stereo” jack) when connecting the
+                        Expression Pedal to StealthPedal. A conveniently short 1/4” TRS cable is includ-
+                        ed in the box with the Expression Pedal you can purchase from IK Multimedia.
+
+                        WARNING: do NOT connect an Expression Pedal with a TS cable (or “mono” jack).
+                        Connecting an Expression Pedal with a TS cable (or “mono” jack) will NOT work.
+
+
+3 - Setups and Connections                                                                           ­33
+StealthPedal CS
+           ™
+
+
+
+
+               External Dual Footswitch
+
+               You can connect an external Dual Footswitch to the Dual Footswitch 1/4” TRS
+               Jack (figure 3.11).
+
+
+
+
+               figure 3.11
+
+
+               Note: You may use a third-party Dual Footswitch or two Single Footswitches,
+               or the one available for purchase from IK Multimedia, made specifically for
+               use with your StealthPedal (figure 3.12).
+
+
+
+
+               figure 3.12
+
+
+               If you use the IK Multimedia Dual Footswitch you will just need a single, 1/4”
+               TRS (or “stereo” jack) to connect the Dual Footswitch to SteahPedal.
+
+               Connect output “1” of the IK Multimedia Dual Footswitch to “Dual Footswitch”
+
+­34                                                    3 - Setups and Connections
+                                                                 StealthPedal CS              ™
+
+
+
+
+                        jack on StealthPedal.
+
+                        When connecting IK Multimedia Double Footswitch with a 1/4” TRS cable
+                        only output #1 has to be used as both switches signal is carried by this jack.
+                        Output #2 will remain unconnected.
+
+                        A conveniently short 1/4” TRS cable is included in the box with the Dual
+                        Footswitch you can purchase from IK Multimedia.
+
+                        If you use a third-party Dual Footswitch or two separated Footswitches
+                        please follow the StealthPedal TRS Dual Footswitch wiring (figure 3.11).
+
+
+
+
+                        figure 3.11
+
+                        Note: if you use a third party single Footswitch you can connect it by using
+                        its regular 1/4” TS connector, in this case you’ll only be able to use External
+                        Footswitch #1 to control your software parameters.
+
+
+
+               EXTERNAL CONTROLLER INPUT
+               Type              1 x Expression Pedal / Footswitch Input
+               Connector         1/4in (3.5mm) TRS (Tip-Ring-Sleeve)
+               Pin Layout        Tip: Input signal­
+                                 Ring: 3.3V output­
+                                 Sleeve: 0V (GND)
+
+               EXTERNAL DUAL FOOTSWITCH INPUT
+               Type              2 x Footswitch Inputs
+               Connector         1/4in (3.5mm) TRS (Tip-Ring-Sleeve)
+               Pin Layout        Tip: Foot-switch 1 input­
+                                 Ring: Foot-switch 2 input­
+                                 Sleeve: 0V (GND)
+
+               STATUS INDICATOR

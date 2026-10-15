@@ -1,0 +1,82 @@
+<domain type='kvm'>
+  <name>stealthpedal-ubuntu</name>
+  <uuid>0606de58-c9e9-41a9-a784-6c3d61559f72</uuid>
+  <title>StealthPedal verification VM (Ubuntu 26.04.1 Desktop)</title>
+  <description>Ubuntu Desktop guest that owns the Renesas uPD720202 USB 3.0 host controller at PCI 0000:06:00.0 through VFIO. USB devices plugged into that controller are enumerated by the guest kernel only; the host kernel never binds a driver to them.</description>
+  <memory unit='GiB'>8</memory>
+  <currentMemory unit='GiB'>8</currentMemory>
+  <vcpu placement='static'>4</vcpu>
+  <os firmware='efi'>
+    <type arch='x86_64' machine='q35'>hvm</type>
+    <firmware>
+      <feature enabled='no' name='secure-boot'/>
+    </firmware>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+  </features>
+  <cpu mode='host-passthrough' check='none' migratable='on'>
+    <topology sockets='1' dies='1' cores='4' threads='1'/>
+  </cpu>
+  <clock offset='utc'>
+    <timer name='rtc' tickpolicy='catchup'/>
+    <timer name='pit' tickpolicy='delay'/>
+    <timer name='hpet' present='no'/>
+  </clock>
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>restart</on_reboot>
+  <on_crash>destroy</on_crash>
+  <pm>
+    <suspend-to-mem enabled='no'/>
+    <suspend-to-disk enabled='no'/>
+  </pm>
+  <devices>
+    <emulator>/usr/bin/qemu-system-x86_64</emulator>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2' discard='unmap'/>
+      <source file='/var/lib/libvirt/images/stealthpedal-ubuntu.qcow2'/>
+      <target dev='vda' bus='virtio'/>
+      <boot order='1'/>
+    </disk>
+    <disk type='file' device='cdrom'>
+      <driver name='qemu' type='raw'/>
+      <source file='/var/lib/libvirt/images/ubuntu-26.04.1-desktop-amd64-autoinstall.iso'/>
+      <target dev='sda' bus='sata'/>
+      <readonly/>
+      <boot order='2'/>
+    </disk>
+    <disk type='file' device='cdrom'>
+      <driver name='qemu' type='raw'/>
+      <source file='/var/lib/libvirt/images/stealthpedal-ubuntu-seed.iso'/>
+      <target dev='sdb' bus='sata'/>
+      <readonly/>
+    </disk>
+    <controller type='usb' model='qemu-xhci' ports='15'/>
+    <interface type='network'>
+      <mac address='52:54:00:39:d4:4e'/>
+      <source network='default'/>
+      <model type='virtio'/>
+    </interface>
+    <channel type='spicevmc'>
+      <target type='virtio' name='com.redhat.spice.0'/>
+    </channel>
+    <channel type='unix'>
+      <target type='virtio' name='org.qemu.guest_agent.0'/>
+    </channel>
+    <input type='tablet' bus='usb'/>
+    <graphics type='spice' autoport='yes'/>
+    <video>
+      <model type='virtio' heads='1' primary='yes'/>
+    </video>
+    <rng model='virtio'>
+      <backend model='random'>/dev/urandom</backend>
+    </rng>
+    <memballoon model='virtio'/>
+    <hostdev mode='subsystem' type='pci' managed='yes'>
+      <source>
+        <address domain='0x0000' bus='0x06' slot='0x00' function='0x0'/>
+      </source>
+    </hostdev>
+  </devices>
+</domain>
